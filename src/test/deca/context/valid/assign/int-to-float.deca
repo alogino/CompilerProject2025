@@ -1,0 +1,15 @@
+// Description:
+//    Déclarations utilisant uniquement des types prédéfinis.
+//
+// Resultats:
+//     Doit passer avec conversion implicite (int -> float).
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+    float x;
+    int y = 10;
+    x = y;
+    println(x);
+}

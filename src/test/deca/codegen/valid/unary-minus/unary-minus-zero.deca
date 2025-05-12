@@ -1,0 +1,17 @@
+// Description:
+//    Test : Applique l'opérateur unary minus sur zéro.
+//
+// Résultats:
+//    Vérifie que -0 retourne toujours 0.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int zero = 0;
+    float zeroFloat = 0.0;
+
+    println(-zero);
+
+    println(-zeroFloat);
+}

@@ -1,0 +1,20 @@
+// Description:
+//    Test : Multiplie une valeur jusqu'à dépasser une limite fixée.
+//
+// Résultats:
+//    Affiche les valeurs intermédiaires et le dépassement.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int x = 1;
+    int limit = 100;
+
+    while (x <= limit) {
+        println("Valeur actuelle : ", x);
+        x = x * 2;
+    }
+
+    println("Valeur finale (dépassement) : ", x);
+}

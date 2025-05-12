@@ -1,0 +1,14 @@
+// Description:
+//    condition sous forme d'une expr.
+//
+// Résultats:
+//    
+//
+// Historique:
+//    créé le 11/01/2025
+{
+    int a;
+    while (a != a) {
+        println("hakuna matata");
+    }
+}

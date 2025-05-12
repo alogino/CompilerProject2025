@@ -1,0 +1,13 @@
+// Description :
+//  Lecture d'un flottant et affichage du carré.
+// Résultats (exemple):
+//    Entrez un nombre : 3.5
+//    Le carré est : 12.25
+// Historique :
+//    créé le 19/01/2025
+{
+    float x;
+    println("Entrez un nombre : ");
+    x = readFloat();
+    println("Le carré est : " + (x * x));
+}

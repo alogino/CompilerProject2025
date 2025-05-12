@@ -1,0 +1,12 @@
+// Description:
+//    Test : Impression d'un nombre mal formé.
+//
+// Résultats:
+//    Doit échouer avec un message d'erreur indiquant que le nombre est mal formé.
+//
+// Historique:
+//    créé le 11/01/2025.
+
+{
+    println(4.3.7.6.2);
+}

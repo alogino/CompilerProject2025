@@ -1,0 +1,3 @@
+{
+    float x = 1e-50; // Trop petit pour IEEE-754 simple précision
+}

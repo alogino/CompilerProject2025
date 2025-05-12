@@ -1,0 +1,11 @@
+// Description :
+//  Test type de retour incorrect dans une méthode.
+// Résultats :
+//    Erreur : Type de retour incorrect.
+// Historique :
+//    créé le 19/01/2025
+class Calculator {
+    int getResult() {
+        return "wrong type"; 
+    }
+}

@@ -1,0 +1,13 @@
+// Description:
+//    Test : Division de deux nombres flottants.
+//
+// Résultats:
+//    Le programme doit afficher le résultat en précision simple IEEE-754.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    float res = 100.0 / 33.33;
+    println(res);
+}

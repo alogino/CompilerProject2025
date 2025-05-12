@@ -1,0 +1,22 @@
+// Description :
+//  Accessing a protected field in a different class
+//  verifying condition 1 for rule 3.66
+// Résultats :
+//    Erreur : Erreur contextuelle : x est protege
+class A {
+    protected int x;
+}
+
+class B extends A {
+    int getX(A a) {
+        return a.x;
+    }
+}
+
+class X {
+    void m() {
+        A a = new A();
+        B b = new B();
+        println(b.getX(a)); 
+    }
+}

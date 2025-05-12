@@ -1,0 +1,14 @@
+// Description:
+//    Test : Applique l'opérateur unary minus sur des constantes directement.
+//
+// Résultats:
+//    Affiche les résultats des constantes négatives.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    println(-42);
+    println(-12345);
+    println(-0x1.0p3);
+}

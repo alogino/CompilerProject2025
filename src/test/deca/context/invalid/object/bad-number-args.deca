@@ -1,0 +1,14 @@
+// Description :
+//  Appel de méthode avec un nombre incorrect d'arguments.
+// Résultats :
+//    Erreur : Incorrect number of arguments for method 'myMethod'. Expected: 2, Found: 1.
+// Historique :
+//    créé le 19/01/2025
+class MyClass {
+    void myMethod(int a, int b) {}
+}
+
+{
+    MyClass obj = new MyClass();
+    obj.myMethod(42); 
+}

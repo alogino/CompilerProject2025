@@ -1,0 +1,9 @@
+// Description :
+//  Test utilisation d'une classe non définie.
+// Résultats :
+//    Erreur : Classe 'UndefinedClass' non définie.
+// Historique :
+//    créé le 19/01/2025
+{
+    UndefinedClass obj = new UndefinedClass(); 
+}

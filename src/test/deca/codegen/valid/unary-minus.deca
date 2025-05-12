@@ -1,0 +1,10 @@
+// Description:
+//    Inversion d'un entier
+//
+// Résultats:
+//    Affiche l'opposé de l'entier donné
+{
+    int a = -5;
+    int b = -a;
+    println(b);
+}

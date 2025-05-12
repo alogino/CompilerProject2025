@@ -1,0 +1,11 @@
+// Description :
+// Utilisation d'un type non déclaré.
+// Résultats :
+//    Le compilateur doit lever une erreur "identificateur de type non déclaré".
+//
+// Historique :
+//    créé le 11/01/2025
+{
+    x = 42;
+    println(x);
+}

@@ -1,0 +1,16 @@
+// Description:
+//    Test valide : boucle while avec affectations imbriquées.
+//
+// Résultats:
+//    Le code est valide.
+//
+// Historique:
+//    créé le 11/01/2025
+{
+    int x = 5;
+    int y = 0;
+    while (x > 0) {
+        y = y + x;
+        x = x - 1;
+    }
+}

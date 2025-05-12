@@ -1,0 +1,12 @@
+// Description :
+//    Opérateur OR entre un booléen et un entier
+// Résultats :
+//    Erreur de contexte : "Types incompatibles pour l'opérateur ||"
+//
+// Historique :
+//    créé le 12/01/2025
+{
+    boolean a = true;
+    int b = 5;
+    boolean c = a || b;
+}

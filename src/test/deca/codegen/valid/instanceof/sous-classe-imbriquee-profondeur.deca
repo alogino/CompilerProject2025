@@ -1,0 +1,24 @@
+// Description:
+//    Test : Vérification avec plusieurs niveaux d'héritage.
+//
+// Résultats:
+//    Doit valider les relations d'héritage à différents niveaux.
+//
+// Historique:
+//    créé le 01/01/2025
+
+class Parent {}
+class Enfant extends Parent {}
+class PetitEnfant extends Enfant {}
+
+{
+    if (new PetitEnfant() instanceof Parent) {
+        println("Un petit-enfant est un parent");
+    }
+    if (new PetitEnfant() instanceof Enfant) {
+        println("Un petit-enfant est un enfant");
+    }
+    if (!(new Enfant() instanceof PetitEnfant)) {
+        println("Un enfant n'est pas un petit-enfant");
+    }
+}

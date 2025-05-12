@@ -1,0 +1,11 @@
+// Description:
+//    Utilisation d'une variable non initialisée dans une opération.
+//
+// Résultats:
+//    Erreur d'exécution: variable non initialisée.
+
+{
+    int a, b;
+    a = 5;
+    println(a + b);
+}

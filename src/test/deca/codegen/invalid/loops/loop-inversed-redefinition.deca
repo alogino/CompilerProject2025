@@ -1,0 +1,21 @@
+// Description:
+//    Test : Inverse un entier en utilisant une boucle while.
+//
+// Résultats:
+//    Affiche le nombre inversé.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int number = 12345;
+    int reversed = 0;
+
+    while (number != 0) {
+        int a = number % 10;
+        reversed = reversed * 10 + a;
+        number = number / 10;
+    }
+
+    println("Nombre inversé : ", reversed);
+}

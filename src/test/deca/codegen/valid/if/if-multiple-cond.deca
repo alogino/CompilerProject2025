@@ -1,0 +1,16 @@
+// Description:
+//    Combine plusieurs conditions dans une instruction if-else
+//
+// Résultats:
+//    Condition remplie
+// Historique :
+//    créé le 16/01/2025
+{
+    int a;
+    a = 8;
+    if (a > 5 && a < 10) {
+        println("Condition remplie");
+    } else {
+        println("Condition non remplie");
+    }
+}

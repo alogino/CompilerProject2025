@@ -1,0 +1,13 @@
+// Description:
+//    Programme qui déclare trois variables : une entière, une flottante initialisée, et une chaîne de caractères.
+//
+// Resultats:
+//    Pas de sortie attendue.
+//
+// Historique:
+//    cree le 01/01/2025
+{
+    int x;
+    float y = 10.5;
+    string z = "Hello, world!";
+}

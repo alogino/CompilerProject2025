@@ -1,0 +1,16 @@
+// Description:
+//    Test : Calcul arithmétique utilisant plusieurs variables entières.
+//
+// Résultats:
+//    Le programme doit afficher le résultat du calcul.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int a, b;
+    a = 1;
+    b = 2;
+
+    println((b * a) - (b /2) -1);
+}

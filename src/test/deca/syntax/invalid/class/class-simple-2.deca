@@ -1,0 +1,8 @@
+// Description:
+//    Déclaration incorrecte d'une classe Person. L'attribut `protected` est défini sans type.
+//
+// Résultats:
+//    Erreur de compilation : type manquant pour l'attribut `protected`.
+class Person {
+    protected = 2;
+}

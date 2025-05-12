@@ -1,0 +1,15 @@
+// Description:
+//    Test : Déclaration de plusieurs variables flottantes avec des valeurs variées,
+//    y compris des littéraux en notation scientifique.
+//
+// Résultats:
+//    Le programme doit se compiler et exécuter correctement.
+//
+// Historique:
+//    créé le 01/01/2025
+{
+    float x = 3.14;
+    float y = -0.5;
+    float z = 1.3e3;
+    float x = 1.0e3;
+}

@@ -1,0 +1,11 @@
+// Description:
+//    Expression qui évalue à un booléen via une comparaison
+// Résultats :
+//    
+//
+// Historique :
+//    créé le 11/01/2025
+{
+    boolean isEqual;
+    isEqual = (5 == 5);  
+}

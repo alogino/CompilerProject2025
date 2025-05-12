@@ -1,0 +1,11 @@
+// Description :
+//    Négation logique d'un booléen
+// Résultats :
+//    
+//
+// Historique :
+//    créé le 12/01/2025
+{
+    boolean x = true;
+    boolean y = !x;
+}

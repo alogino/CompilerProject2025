@@ -1,0 +1,20 @@
+// Description:
+//    Test : Utilisation de instanceof dans des conditions imbriquées.
+//
+// Résultats:
+//    Doit afficher les résultats des vérifications imbriquées.
+//
+// Historique:
+//    créé le 01/01/2025
+
+class A {}
+class B extends A {}
+
+{
+    A a = new B();
+    if (a instanceof B) {
+        if (a instanceof A) {
+            println("B est aussi un A");
+        }
+    }
+}

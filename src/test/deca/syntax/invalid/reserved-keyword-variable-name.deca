@@ -1,0 +1,11 @@
+// Description:
+//    Test : Utilisation d'un mot-clé réservé comme nom de variable.
+//
+// Resultats:
+//    Doit échouer avec un message d'erreur de syntaxe.
+//
+// Historique:
+//    cree le 01/01/2025
+{
+    int while = 10;
+}

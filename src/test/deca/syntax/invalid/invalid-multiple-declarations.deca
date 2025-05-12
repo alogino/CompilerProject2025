@@ -1,0 +1,12 @@
+// Description:
+//    Test : Déclarations multiples incorrectes sur une seule ligne.
+//
+// Résultats:
+//    Doit échouer avec un message d'erreur indiquant une syntaxe incorrecte.
+//
+// Historique:
+//    créé le 11/01/2025.
+
+{
+    float a = 1.0; float b = 2.0 int c = 3;
+}

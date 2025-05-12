@@ -1,0 +1,49 @@
+`> [1, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [1, 0] Main
+      +> ListDeclVar [List with 5 elements]
+      |  []> [2, 8] DeclVar
+      |  ||  +> [2, 4] Identifier (int)
+      |  ||  +> [2, 8] Identifier (x)
+      |  ||  `> NoInitialization
+      |  []> [2, 10] DeclVar
+      |  ||  +> [2, 4] Identifier (int)
+      |  ||  +> [2, 10] Identifier (y)
+      |  ||  `> NoInitialization
+      |  []> [2, 12] DeclVar
+      |  ||  +> [2, 4] Identifier (int)
+      |  ||  +> [2, 12] Identifier (z)
+      |  ||  `> NoInitialization
+      |  []> [3, 12] DeclVar
+      |  ||  +> [3, 4] Identifier (boolean)
+      |  ||  +> [3, 12] Identifier (cond1)
+      |  ||  `> [3, 20] Initialization
+      |  ||     `> [3, 20] BooleanLiteral (true)
+      |  []> [4, 12] DeclVar
+      |      +> [4, 4] Identifier (boolean)
+      |      +> [4, 12] Identifier (cond2)
+      |      `> [4, 18] Initialization
+      |         `> [4, 18] BooleanLiteral (false)
+      `> ListInst [List with 2 elements]
+         []> [5, 4] IfThenElse
+         ||  +> [5, 8] Identifier (cond1)
+         ||  +> ListInst [List with 1 elements]
+         ||  |  []> [6, 13] Assign
+         ||  |      +> [6, 8] Identifier (x)
+         ||  |      `> [6, 12] Int (1)
+         ||  `> ListInst [List with 1 elements]
+         ||     []> [8, 9] IfThenElse
+         ||         +> [8, 13] Identifier (cond2)
+         ||         +> ListInst [List with 1 elements]
+         ||         |  []> [9, 13] Assign
+         ||         |      +> [9, 8] Identifier (y)
+         ||         |      `> [9, 12] Int (2)
+         ||         `> ListInst [List with 1 elements]
+         ||            []> [12, 13] Assign
+         ||                +> [12, 8] Identifier (z)
+         ||                `> [12, 12] Int (3)
+         []> [14, 4] Println
+             `> ListExpr [List with 3 elements]
+                []> [14, 12] Identifier (x)
+                []> [14, 14] Identifier (y)
+                []> [14, 16] Identifier (z)

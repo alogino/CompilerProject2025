@@ -1,0 +1,17 @@
+// Description:
+//    Test : Combine l'opérateur unary minus avec des expressions imbriquées.
+//
+// Résultats:
+//    Affiche les résultats des expressions imbriquées.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int a = 5;
+    int b = 3;
+
+    println(-(a + b));
+    println(-(a - b));
+    println(-((a * 2) + (b / 2)));
+}

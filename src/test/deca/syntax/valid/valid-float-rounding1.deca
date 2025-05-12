@@ -1,0 +1,14 @@
+// Description:
+//    Test : Déclaration de variables flottantes avec des valeurs proches,
+//    vérifiant la précision des flottants IEEE-754 simple précision.
+//
+// Résultats:
+//    Le programme doit se compiler et exécuter correctement,
+//    affichant des valeurs légèrement différentes pour x et y.
+//
+// Historique:
+//    créé le 01/01/2025
+{
+    float x = 1.000000119e0;
+    float y = 1.000000238e0;
+}

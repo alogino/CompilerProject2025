@@ -1,0 +1,1 @@
+src/test/deca/syntax/invalid/invalid-nested-while.deca:11:12: extraneous input 'println' expecting {'new', 'readInt', 'readFloat', '(', 'true', 'false', 'null', 'this', '-', '!', INT, FLOAT, IDENT, STRING}

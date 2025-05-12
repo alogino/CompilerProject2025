@@ -1,0 +1,10 @@
+// Description:
+//    Règle pour traiter la directive `#include`, utilisée pour inclure un fichier externe
+//    dans un programme Deca.
+//
+// Resultats:
+//    Appelle la méthode `doInclude` pour gérer le contenu du fichier spécifié.
+//
+// Historique:
+//    cree le 01/01/2025
+#include "math-for-do-include.deca"

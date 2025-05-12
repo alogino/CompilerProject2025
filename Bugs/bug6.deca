@@ -1,0 +1,12 @@
+class A 
+{
+    int f(int x)
+    { 
+        return 2*x;
+    }
+}
+
+{
+    A a = new A();
+    println(a.f(1)+a.f(2));
+}

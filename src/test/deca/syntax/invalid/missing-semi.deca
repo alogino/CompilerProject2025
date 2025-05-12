@@ -1,0 +1,11 @@
+// Description:
+//    Test avec un point-virgule manquant.
+//
+// Resultats:
+//    Erreur de syntaxe.
+//
+{
+    int x
+    x = 42;
+    println(x);
+}

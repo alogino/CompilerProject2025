@@ -1,0 +1,84 @@
+`> [8, 0] Program
+   +> ListDeclClass [List with 1 elements]
+   |  []> [8, 0] DeclClass
+   |      +> [8, 6] Identifier (A)
+   |      |  definition: type defined at [8, 0], type=A
+   |      +> [builtin] Identifier (Object)
+   |      |  definition: type (builtin), type=Object
+   |      +> ListDeclField [List with 1 elements]
+   |      |  []> [9, 17] [visibility=PROTECTED] DeclField
+   |      |      +> [9, 13] Identifier (int)
+   |      |      |  definition: type (builtin), type=int
+   |      |      +> [9, 17] Identifier (x)
+   |      |      |  definition: field defined at [9, 17], type=int
+   |      |      `> NoInitialization
+   |      `> ListDeclMethod [List with 2 elements]
+   |         []> [10, 3] DeclMethod
+   |         ||  +> [10, 3] Identifier (int)
+   |         ||  |  definition: type (builtin), type=int
+   |         ||  +> [10, 7] Identifier (getX)
+   |         ||  |  definition: method defined at [10, 3], type=int
+   |         ||  +> ListDeclParam [List with 0 elements]
+   |         ||  `> [10, 14] MethodBody
+   |         ||     +> ListDeclVar [List with 0 elements]
+   |         ||     `> ListInst [List with 1 elements]
+   |         ||        []> [11, 6] Return
+   |         ||            `> [11, 13] Identifier (x)
+   |         ||               definition: field defined at [9, 17], type=int
+   |         []> [13, 3] DeclMethod
+   |             +> [13, 3] Identifier (void)
+   |             |  definition: type (builtin), type=void
+   |             +> [13, 8] Identifier (setX)
+   |             |  definition: method defined at [13, 3], type=void
+   |             +> ListDeclParam [List with 1 elements]
+   |             |  []> [13, 13] DeclParam
+   |             |      +> [13, 13] Identifier (int)
+   |             |      |  definition: type (builtin), type=int
+   |             |      `> [13, 17] Identifier (x)
+   |             |         definition: parameter defined at [13, 13], type=int
+   |             `> [13, 20] MethodBody
+   |                +> ListDeclVar [List with 0 elements]
+   |                `> ListInst [List with 1 elements]
+   |                   []> [14, 17] Assign
+   |                       type: int
+   |                       +> [14, 6] Selection
+   |                       |  type: int
+   |                       |  +> [14, 6] This
+   |                       |  |  type: A
+   |                       |  `> [14, 11] Identifier (x)
+   |                       |     definition: field defined at [9, 17], type=int
+   |                       `> [14, 15] Identifier (x)
+   |                          definition: parameter defined at [13, 13], type=int
+   `> [18, 0] Main
+      +> ListDeclVar [List with 1 elements]
+      |  []> [19, 5] DeclVar
+      |      +> [19, 3] Identifier (A)
+      |      |  definition: type defined at [8, 0], type=A
+      |      +> [19, 5] Identifier (a)
+      |      |  definition: variable defined at [19, 5], type=A
+      |      `> [19, 9] Initialization
+      |         `> [19, 9] New
+      |            type: A
+      |            `> [19, 13] Identifier (A)
+      |               definition: type defined at [8, 0], type=A
+      `> ListInst [List with 2 elements]
+         []> [20, 13] MethodCall
+         ||  type: void
+         ||  +> [20, 3] Identifier (a)
+         ||  |  definition: variable defined at [19, 5], type=A
+         ||  +> [20, 5] Identifier (setX)
+         ||  |  definition: method defined at [13, 3], type=void
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [20, 10] Int (1)
+         ||         type: int
+         []> [21, 3] Println
+             `> ListExpr [List with 2 elements]
+                []> [21, 11] StringLiteral (a.getX() = )
+                ||  type: string
+                []> [21, 26] MethodCall
+                    type: int
+                    +> [21, 26] Identifier (a)
+                    |  definition: variable defined at [19, 5], type=A
+                    +> [21, 28] Identifier (getX)
+                    |  definition: method defined at [10, 3], type=int
+                    `> ListExpr [List with 0 elements]

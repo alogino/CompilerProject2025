@@ -1,0 +1,15 @@
+// Description:
+//    test condition (if) et println
+//
+// Resultats:
+//    
+//    
+// 
+// Historique:
+//    cree le 01/01/2025
+
+{
+   if (true){
+      println("hello");
+   }
+}

@@ -1,0 +1,11 @@
+`> [1, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [1, 0] Main
+      +> ListDeclVar [List with 0 elements]
+      `> ListInst [List with 2 elements]
+         []> [2, 4] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [2, 12] Float (34.4)
+         []> [3, 4] Println
+             `> ListExpr [List with 1 elements]
+                []> [3, 13] Float (34.4)

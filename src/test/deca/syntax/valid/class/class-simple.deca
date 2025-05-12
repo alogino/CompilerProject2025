@@ -1,0 +1,11 @@
+// Description:
+//    Test de création d'une classe simple avec un champ.
+//
+// Résultats:
+//    Aucune erreur.
+//
+// Historique:
+//    créé le 09/01/2025
+class Person {
+    protected int age = 2;
+}

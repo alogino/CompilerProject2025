@@ -1,0 +1,11 @@
+// Description :
+//
+// Résultats :
+//    Erreur de contexte : "Variable déjà déclarée dans ce bloc"
+//
+// Historique :
+//    créé le 11/01/2025
+{
+    int x = 0;
+    int x = 1;
+}

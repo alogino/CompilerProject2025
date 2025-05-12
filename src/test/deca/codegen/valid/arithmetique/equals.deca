@@ -1,0 +1,23 @@
+// Description:
+//    Comparaison entre deux entiers et deux flottants
+//
+// Résultats:
+//    res1: vrai si les entiers sont égaux
+//    res2: vrai si les flottants sont égaux
+{
+    int a = 4;
+    int b = 4;
+
+    boolean res1 = a == b;
+
+    float x = 5.0;
+    float y = 3.0;
+
+    boolean res2 = x == y;
+    if (res2 == true) {
+        println("yes");
+    }
+    else {
+        println("no");
+    }
+}

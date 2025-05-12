@@ -1,0 +1,16 @@
+// Description:
+//    Programme affichant plusieurs lignes de texte.
+//
+// Résultats:
+//    Hello!
+//    What's up?
+//    Bye.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    println("Hello!");
+    println("What's up?");
+    println("Bye.");
+}

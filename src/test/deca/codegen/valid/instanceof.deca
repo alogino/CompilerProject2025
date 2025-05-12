@@ -1,0 +1,27 @@
+// Description:
+//    Dépassement de capacité d'un entier
+//
+// Résultats:
+//    Une voiture est une voiture
+//    Une voiture est un véhicule
+//    Une moto est un véhicule
+//    Une voiture n'est pas une moto
+
+class Vehicule {}
+class Voiture extends Vehicule {}
+class Moto extends Vehicule {}
+
+{
+    if (new Voiture() instanceof Voiture) {
+        println("Une voiture est une voiture");
+    }
+    if (new Voiture() instanceof Vehicule) {
+        println("Une voiture est un véhicule");
+    }
+    if (new Moto() instanceof Vehicule) {
+        println("Une moto est un véhicule");
+    }
+    if (!(new Voiture() instanceof Moto)) {
+        println("Une voiture n'est pas une moto");
+    }
+}

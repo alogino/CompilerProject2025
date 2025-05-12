@@ -1,0 +1,12 @@
+// Description:
+//    Programme minimaliste affichant un nombre.
+//
+// Résultats:
+//    42
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    println(42);
+}

@@ -1,0 +1,13 @@
+// Description:
+//    Test : Applique l'opérateur unary minus sur les limites des entiers.
+//
+// Résultats:
+//    Vérifie que -(-2147483648) reste -2147483648.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int minInt = -2147483;
+    println(-minInt);
+}

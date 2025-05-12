@@ -1,0 +1,28 @@
+// Description:
+//    Programme minimaliste affichant un nombre flottant.
+//
+// Résultats:
+//    4.2
+//    4.2
+//    4.2
+//    4.23
+//    4.23
+//    4.23
+//    0.42
+//    0.42
+//    0.42
+//
+// Historique:
+//    créé le 09/01/2025
+
+{
+    println(4.2);
+    println(4.2f);
+    println(4.2F);
+    println(4.23e+1);
+    println(4.23e+1f);
+    println(4.23e+1F);
+    println(4.2E-1);
+    println(4.2E-1f);
+    println(4.2E-1F);
+}

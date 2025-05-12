@@ -1,0 +1,12 @@
+// Description :
+//  Test appel d'une méthode inexistante.
+// Résultats :
+//    Erreur : Méthode 'nonexistentMethod' non définie.
+// Historique :
+//    créé le 19/01/2025
+class Dummy {}
+
+{
+    Dummy d = new Dummy();
+    d.nonexistentMethod(); 
+}

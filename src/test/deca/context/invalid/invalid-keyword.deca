@@ -1,0 +1,11 @@
+// Description:
+//    Utilisation d'un mot-clé invalide.
+//
+// Resultats:
+//    Erreur de lexique : mot-clé non reconnu.
+//
+{
+    intr x;
+    x = 42;
+    println(x);
+}

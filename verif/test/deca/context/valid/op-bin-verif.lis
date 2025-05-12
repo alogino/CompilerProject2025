@@ -1,0 +1,45 @@
+`> [8, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [8, 0] Main
+      +> ListDeclVar [List with 3 elements]
+      |  []> [9, 8] DeclVar
+      |  ||  +> [9, 4] Identifier (int)
+      |  ||  |  definition: type (builtin), type=int
+      |  ||  +> [9, 8] Identifier (x)
+      |  ||  |  definition: variable defined at [9, 8], type=int
+      |  ||  `> NoInitialization
+      |  []> [10, 8] DeclVar
+      |  ||  +> [10, 4] Identifier (int)
+      |  ||  |  definition: type (builtin), type=int
+      |  ||  +> [10, 8] Identifier (y)
+      |  ||  |  definition: variable defined at [10, 8], type=int
+      |  ||  `> NoInitialization
+      |  []> [11, 12] DeclVar
+      |      +> [11, 4] Identifier (boolean)
+      |      |  definition: type (builtin), type=boolean
+      |      +> [11, 12] Identifier (egal)
+      |      |  definition: variable defined at [11, 12], type=boolean
+      |      `> NoInitialization
+      `> ListInst [List with 3 elements]
+         []> [12, 9] Assign
+         ||  type: int
+         ||  +> [12, 4] Identifier (x)
+         ||  |  definition: variable defined at [9, 8], type=int
+         ||  `> [12, 8] Int (8)
+         ||     type: int
+         []> [13, 9] Assign
+         ||  type: int
+         ||  +> [13, 4] Identifier (y)
+         ||  |  definition: variable defined at [10, 8], type=int
+         ||  `> [13, 8] Int (8)
+         ||     type: int
+         []> [14, 17] Assign
+             type: boolean
+             +> [14, 4] Identifier (egal)
+             |  definition: variable defined at [11, 12], type=boolean
+             `> [14, 11] Equals
+                type: boolean
+                +> [14, 11] Identifier (x)
+                |  definition: variable defined at [9, 8], type=int
+                `> [14, 16] Identifier (y)
+                   definition: variable defined at [10, 8], type=int

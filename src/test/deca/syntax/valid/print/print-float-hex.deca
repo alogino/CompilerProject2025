@@ -1,0 +1,12 @@
+// Description:
+//    Programme minimaliste affichant un nombre flottant en hexadécimal.
+//
+// Résultats:
+//    0x1.0cccccp+2
+//
+// Historique:
+//    créé le 09/01/2025
+
+{
+    printlnx(4.2);
+}

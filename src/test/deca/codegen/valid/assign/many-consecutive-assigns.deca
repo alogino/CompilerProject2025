@@ -1,0 +1,79 @@
+// Description :
+//    Succession d'assigns noramaux
+// Résultats :
+//    1
+//    2
+//    3
+//    4
+//    5
+//    6
+//    7
+//    8
+//    9
+//    10
+//    11
+//    12
+//    13
+//    14
+//    15
+//    16
+//    17
+//    18
+//    19
+//    20
+//    21
+//    12
+//
+// Historique :
+//    créé le 16/01/2025
+{
+    int a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22;
+
+    a1 = 1;
+    a2 = 2;
+    a3 = 3;
+    a4 = 4;
+    a5 = 5;
+    a6 = 6;
+    a7 = 7;
+    a8 = 8;
+    a9 = 9;
+    a10 = 10;
+    a11 = 11;
+    a12 = 12;
+    a13 = 13;
+    a14 = 14;
+    a15 = 15;
+    a16 = 16;
+    a17 = 17;
+    a18 = 18;
+    a19 = 19;
+    a20 = 20;
+    a21 = 21;
+    a22 = 12;
+
+    println(a1);
+    println(a2);
+    println(a3);
+    println(a4);
+    println(a5);
+    println(a6);
+    println(a7);
+    println(a8);
+    println(a9);
+    println(a10);
+    println(a11);
+    println(a12);
+    println(a13);
+    println(a14);
+    println(a15);
+    println(a16);
+    println(a17);
+    println(a18);
+    println(a19);
+    println(a20);
+    println(a21);
+    println(a22);
+}
+
+

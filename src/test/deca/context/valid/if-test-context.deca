@@ -1,0 +1,15 @@
+// Description:
+//    Test valide : condition dans une structure if avec des variables entières.
+//
+// Résultats:
+//    Le code est valide.
+//
+// Historique:
+//    créé le 11/01/2025
+{
+    int a = 10;
+    int b = 20;
+    if (a < b && b > 0) {
+        b = a;
+    }
+}

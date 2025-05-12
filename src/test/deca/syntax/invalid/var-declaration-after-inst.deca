@@ -1,0 +1,13 @@
+// Description:
+//    Test : Faire une déclaration de variable après les instructions.
+//
+// Resultats:
+//    Doit échouer avec un message d'erreur de syntaxe.
+//
+// Historique:
+//    cree le 01/01/2025
+{
+    int a = 420;
+    println("Je suis un println");
+    int b = 69;
+}

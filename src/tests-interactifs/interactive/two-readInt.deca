@@ -1,0 +1,16 @@
+// Description :
+//  Lecture de deux entiers et affichage de leur somme.
+// Résultats (exemple):
+//    Entrez le premier entier : 7
+//    Entrez le deuxième entier : 8
+//    La somme est : 15
+// Historique :
+//    créé le 19/01/2025
+{
+    int a, b;
+    println("Entrez le premier entier : ");
+    a = readInt();
+    println("Entrez le deuxième entier : ");
+    b = readInt();
+    println("La somme est : " + (a + b));
+}

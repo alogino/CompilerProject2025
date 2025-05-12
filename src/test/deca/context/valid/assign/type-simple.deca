@@ -1,0 +1,19 @@
+// Description:
+//    Déclarations utilisant uniquement des types prédéfinis.
+//
+// Resultats:
+//     
+//
+// Historique:
+//    cree le 11/01/2025
+
+{
+    int x;
+    float y;
+
+    x = 42;
+    y = 3.14;
+
+    println(x);
+    println(y);
+}

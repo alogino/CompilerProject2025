@@ -1,0 +1,18 @@
+// Description:
+//    Programme qui combine une boucle et une condition pour incrémenter une variable entière.
+//
+// Resultats:
+//    Pas de sortie attendue.
+//
+// Historique:
+//    cree le 01/01/2025
+{
+    int i = 0;
+    while (i < 10) {
+        if (i % 2 == 0) {
+            i = i + 2;
+        } else {
+            i = i + 1;
+        }
+    }
+}

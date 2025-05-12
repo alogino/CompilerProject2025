@@ -1,0 +1,44 @@
+`> [9, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [9, 0] Main
+      +> ListDeclVar [List with 2 elements]
+      |  []> [10, 8] DeclVar
+      |  ||  +> [10, 4] Identifier (int)
+      |  ||  |  definition: type (builtin), type=int
+      |  ||  +> [10, 8] Identifier (a)
+      |  ||  |  definition: variable defined at [10, 8], type=int
+      |  ||  `> [10, 12] Initialization
+      |  ||     `> [10, 12] Int (10)
+      |  ||        type: int
+      |  []> [11, 8] DeclVar
+      |      +> [11, 4] Identifier (int)
+      |      |  definition: type (builtin), type=int
+      |      +> [11, 8] Identifier (b)
+      |      |  definition: variable defined at [11, 8], type=int
+      |      `> [11, 12] Initialization
+      |         `> [11, 12] Int (20)
+      |            type: int
+      `> ListInst [List with 1 elements]
+         []> [12, 4] IfThenElse
+             +> [12, 8] And
+             |  type: boolean
+             |  +> [12, 8] Lower
+             |  |  type: boolean
+             |  |  +> [12, 8] Identifier (a)
+             |  |  |  definition: variable defined at [10, 8], type=int
+             |  |  `> [12, 12] Identifier (b)
+             |  |     definition: variable defined at [11, 8], type=int
+             |  `> [12, 17] Greater
+             |     type: boolean
+             |     +> [12, 17] Identifier (b)
+             |     |  definition: variable defined at [11, 8], type=int
+             |     `> [12, 21] Int (0)
+             |        type: int
+             +> ListInst [List with 1 elements]
+             |  []> [13, 13] Assign
+             |      type: int
+             |      +> [13, 8] Identifier (b)
+             |      |  definition: variable defined at [11, 8], type=int
+             |      `> [13, 12] Identifier (a)
+             |         definition: variable defined at [10, 8], type=int
+             `> ListInst [List with 0 elements]

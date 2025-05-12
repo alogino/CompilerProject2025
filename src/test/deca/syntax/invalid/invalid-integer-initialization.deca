@@ -1,0 +1,12 @@
+// Description:
+//    Test : Initialisation incorrecte d'un entier avec des caractères non valides.
+//
+// Résultats:
+//    Doit échouer avec un message d'erreur indiquant que la valeur attribuée à l'entier est mal formée.
+//
+// Historique:
+//    créé le 11/01/2025.
+
+{
+    int a = 23bd;
+}

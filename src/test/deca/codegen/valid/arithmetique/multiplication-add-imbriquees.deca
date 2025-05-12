@@ -1,0 +1,15 @@
+// Description:
+//    Test : Calcul imbriqué combinant multiplication et addition.
+//
+// Résultats:
+//    Doit afficher le résultat calculé correctement.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int a = 3;
+    int b = 4;
+    int result = (a + b) * (b - a) + 2;
+    println(result);
+}

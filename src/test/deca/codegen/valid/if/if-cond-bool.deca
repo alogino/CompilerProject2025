@@ -1,0 +1,13 @@
+// Description :
+//  Utilise une variable booléenne comme condition
+// Résultats :
+//  Bloc true exécuté
+// Historique :
+//    créé le 16/01/2025
+{
+    boolean condition;
+    condition = true;
+    if (condition) {
+        println("Bloc true exécuté");
+    }
+}

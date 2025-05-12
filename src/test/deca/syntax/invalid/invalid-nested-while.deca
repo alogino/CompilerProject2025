@@ -1,0 +1,16 @@
+// Description:
+//    Test : Boucle `while` imbriquée incorrecte.
+//
+// Résultats:
+//    Doit échouer avec un message d'erreur indiquant que la structure est mal formée.
+//
+// Historique:
+//    créé le 11/01/2025.
+
+{
+    while ( println("hello") ) {
+        while ( 3 + ) {
+            println("nested while");
+        }
+    }
+}

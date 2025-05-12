@@ -1,0 +1,13 @@
+// Description :
+//    "Non" logique appliqué à un entier
+// Résultats :
+//    Erreur de contexte : "Opérateur unaire non défini pour ce type"
+//
+// Historique :
+//    créé le 12/01/2025
+{
+    int x;
+    boolean y;
+    x = 5;
+    y = !x; 
+}

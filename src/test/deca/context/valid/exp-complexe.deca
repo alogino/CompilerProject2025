@@ -1,0 +1,12 @@
+// Description :
+//    Expression complexe avec des opérateurs compatibles
+// Résultats :
+//    
+//
+// Historique :
+//    créé le 12/01/2025
+{
+    int x = 10;
+    float y = -5.5;
+    boolean b = true && (x > 0) && !(y < 0);
+}

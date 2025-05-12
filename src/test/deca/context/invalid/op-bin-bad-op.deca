@@ -1,0 +1,15 @@
+// Description :
+//    Utilisation d'un opérateur non supporté pour les types donnés
+// Résultats :
+//    Erreur de contexte : "Opérateur indéfini pour les types donnés"
+//
+// Historique :
+//    créé le 12/01/2025
+{
+    int x;
+    int y;
+    int z;
+    x = 10;
+    y = 5;
+    z = x && y; 
+}

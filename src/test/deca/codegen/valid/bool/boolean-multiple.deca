@@ -1,0 +1,20 @@
+// Description:
+//    Test : Vérification des opérations booléennes complexes avec des comparaisons imbriquées.
+//
+// Résultats:
+//    Doit imprimer "OK" et ignorer la seconde condition.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    boolean b = true;
+
+    if ((b != b) == (b != b)) {
+        println("YESSSSSSSSSSSSSSS");
+    }
+
+    if ((b != b) == !(b != b)) {
+        println("NOOOOOOOOOOOOO");
+    }
+}

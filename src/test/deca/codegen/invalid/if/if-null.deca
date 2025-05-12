@@ -1,0 +1,13 @@
+// Description :
+//  Vérification de la valeur null
+// Résultats :
+//    La variable est null
+// Historique :
+//    créé le 17/01/2025
+{
+    int a;
+    a = null;
+    if (a == null) {
+        println("La variable est null");
+    }
+}

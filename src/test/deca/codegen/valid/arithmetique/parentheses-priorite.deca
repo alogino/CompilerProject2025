@@ -1,0 +1,13 @@
+// Description:
+//    Test : Priorités des opérateurs contrôlées par des parenthèses.
+//
+// Résultats:
+//    Doit afficher le résultat attendu avec les bonnes priorités.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int result = (10 + 5) * (3 - 1);
+    println(result);
+}

@@ -1,0 +1,22 @@
+// Description:
+//    Enchaînement de beaucoup (BEAUCOUP) d'appels de méthodes récursivement
+//
+// Résultats:
+//    1000
+
+class Incrementer {
+    void increment(int x) {
+        if (x == 1000) {
+            println(x);
+        } else {
+            x = x+1;
+            increment(x);
+        }
+    }
+}
+
+{
+    Incrementer calc = new Incrementer();
+
+    calc.increment(0);
+}

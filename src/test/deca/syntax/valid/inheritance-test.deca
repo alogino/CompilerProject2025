@@ -1,0 +1,14 @@
+// Description:
+//    Test de l'héritage simple entre deux classes.
+//
+// Résultats:
+//    Aucune erreur attendue.
+//
+// Historique:
+//    créé le 11/01/2025
+
+class A {
+}
+
+class B extends A {
+}

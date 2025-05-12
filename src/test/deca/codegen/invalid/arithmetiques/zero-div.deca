@@ -1,0 +1,12 @@
+// Description:
+//    Division par zéro
+//
+// Résultats:
+//    Erreur d'exécution: division par zéro
+
+{
+   int a, b;
+   a = 10;
+   b = 0;
+   println(a / b); 
+}

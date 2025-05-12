@@ -1,0 +1,17 @@
+// Description :
+//  Exécute le bloc approprié dans une chaîne
+// Résultats :
+//  Condition intermédiaire  
+// Historique :
+//    créé le 16/01/2025
+{
+    int a;
+    a = 15;
+    if (a < 10) {
+        println("Moins de 10");
+    } else if (a < 20) {
+        println("Condition intermédiaire");
+    } else {
+        println("20 ou plus");
+    }
+}

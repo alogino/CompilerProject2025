@@ -1,0 +1,12 @@
+// Description :
+//  Lecture et affichage direct d'un entier.
+// Résultats (exemple):
+//    Entrez un entier : 12
+//    Vous avez saisi : 12
+// Historique :
+//    créé le 19/01/2025
+{
+    println("Entrez un entier : ");
+    print("Vous avez saisi : ");
+    print(readInt());
+}

@@ -1,0 +1,15 @@
+// Description :
+//  Combinaison des opérateurs logiques AND et OR
+// Résultats :
+//    Résultat : vrai
+// Historique :
+//    créé le 17/01/2025
+{
+    boolean a, b, c;
+    a = true;
+    b = false;
+    c = true;
+    if (a || (b && c)) {
+        println("Résultat : vrai");
+    }
+}

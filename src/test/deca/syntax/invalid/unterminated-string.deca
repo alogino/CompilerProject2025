@@ -1,0 +1,12 @@
+// Description:
+//    Test d'une chaîne de caractères non terminée.
+//
+// Résultats:
+//    Ligne 5 : Erreur, chaîne non terminée.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    println("Chaîne non terminée);
+}

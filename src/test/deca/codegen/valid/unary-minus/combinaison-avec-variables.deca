@@ -1,0 +1,18 @@
+// Description:
+//    Test : Combine l'opérateur unary minus avec des calculs.
+//
+// Résultats:
+//    Affiche les résultats des calculs avec des valeurs négatives.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int x = 3;
+    int y = -x;
+    int z = -y;
+
+    println("x : ", x);
+    println("y (unary minus applied) : ", y);
+    println("z (unary minus applied twice) : ", z);
+}

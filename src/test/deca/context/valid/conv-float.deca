@@ -1,0 +1,16 @@
+// Description:
+//    test conversion en float
+//
+// Resultats:
+//    
+//    
+// 
+// Historique:
+//    cree le 01/01/2025
+
+{
+   int i;
+   float f;
+
+   f = f + i ;
+}

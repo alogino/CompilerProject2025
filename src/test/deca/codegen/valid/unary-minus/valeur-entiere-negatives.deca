@@ -1,0 +1,20 @@
+// Description:
+//    Test : Applique l'opérateur unary minus sur des entiers.
+//
+// Résultats:
+//    Affiche les valeurs entières négatives.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int a = -1;
+    int b = 5;
+
+    print(a);
+    println();
+    print(-9);
+    println();
+    print(-b);
+    println();
+}

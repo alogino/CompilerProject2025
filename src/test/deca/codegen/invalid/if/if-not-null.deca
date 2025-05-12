@@ -1,0 +1,15 @@
+// Description :
+//  Vérification null dans une condition
+// Résultats :
+//    La variable a une valeur : 20
+// Historique :
+//    créé le 17/01/2025
+{
+    int a;
+    a = 20;
+    if (a != null) {
+        println("La variable a une valeur : ", a);
+    } else {
+        println("La variable est null");
+    }
+}

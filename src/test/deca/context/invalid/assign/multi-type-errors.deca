@@ -1,0 +1,13 @@
+// Description:
+//    Combinaison d'erreurs liées à des identificateurs de type non déclarés.
+//
+// Resultats:
+//    Le compilateur doit s'arrêter a la première erreur
+//
+// Historique:
+//    cree le 11/01/2025
+{
+    UnknownType x;     
+    int myNumber;
+    myNumber = "text";
+}

@@ -1,0 +1,15 @@
+// Description :
+//  Évalue une condition complexe avec des opérations arithmétiques
+// Résultats :
+//  Condition complexe remplie
+// Historique :
+//    créé le 16/01/2025
+{
+    int a, b, c;
+    a = 3;
+    b = 4;
+    c = 7;
+    if ((a + b) == c) {
+        println("Condition complexe remplie");
+    }
+}

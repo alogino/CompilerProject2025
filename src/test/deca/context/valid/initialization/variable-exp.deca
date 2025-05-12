@@ -1,0 +1,10 @@
+// Description:
+//    Déclaration correcte d'une variable avec une initialisation par expression
+// Résultats :
+//    Aucun problème de syntaxe ou de contexte
+//
+// Historique :
+//    créé le 11/01/2025
+{
+    int y = 5 + 3;
+}

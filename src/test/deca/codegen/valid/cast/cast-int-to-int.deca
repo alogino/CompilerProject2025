@@ -1,0 +1,4 @@
+{
+	int a = (int)(12.2);
+	println(a);
+}

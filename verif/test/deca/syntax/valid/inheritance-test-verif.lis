@@ -1,0 +1,13 @@
+`> [10, 0] Program
+   +> ListDeclClass [List with 2 elements]
+   |  []> [10, 0] DeclClass
+   |  ||  +> [10, 6] Identifier (A)
+   |  ||  +> [builtin] Identifier (Object)
+   |  ||  +> ListDeclField [List with 0 elements]
+   |  ||  `> ListDeclMethod [List with 0 elements]
+   |  []> [13, 0] DeclClass
+   |      +> [13, 6] Identifier (B)
+   |      +> [13, 16] Identifier (A)
+   |      +> ListDeclField [List with 0 elements]
+   |      `> ListDeclMethod [List with 0 elements]
+   `> EmptyMain

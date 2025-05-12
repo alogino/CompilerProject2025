@@ -1,0 +1,22 @@
+// Description:
+//    Test : Boucle infinie simulée avec une condition explicite de sortie.
+//
+// Résultats:
+//    Affiche un message de sortie après quelques itérations.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int x = 1;
+
+    while (x<=8) {
+        println("Itération : ", x);
+        if (x == 5) {
+            println("Sortie de la boucle.");
+            x = x + 1;
+        }
+         x = x + 1;
+
+    }
+}

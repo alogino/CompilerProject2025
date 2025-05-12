@@ -1,0 +1,12 @@
+// Description:
+//    Programme minimaliste affectant un int a un float.
+//
+// Resultats:
+//    un float a de valeur 13.
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+    float a = 13;
+}

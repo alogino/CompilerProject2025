@@ -1,0 +1,15 @@
+// Description:
+//    Évaluation de l'opérateur "!" sur des booléens
+//
+// Résultats:
+//    Affiche les résultats des inversions logiques
+{
+    boolean result1 = !(true);
+    boolean result2 = !(false);
+    if (result1){
+        println("noooooooooooo");
+    }
+    if (result2){
+        println("yeeees");
+    }
+}

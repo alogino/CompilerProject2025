@@ -1,0 +1,25 @@
+// Description:
+//    Test : Vérification des très petits flottants pour respecter les limites IEEE-754.
+//
+// Résultats:
+//    "OK !" si la valeur 1.4e-45 est gérée correctement et 1.0e-50 est arrondie à zéro.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    float smallestRepresentable = 1.4e-45; // Plus petite valeur subnormale en simple précision
+    float tooSmall = 1.0e-50;             // Valeur trop petite, devrait être arrondie à 0.0
+
+    if (smallestRepresentable != 0.0) {
+        println("smallest representable => good : 1.4e-45");
+    } else {
+        println("not good 1.4e-45");
+    }
+
+    if (tooSmall == 0.0) {
+        println("too small => good : 1.0e-50");
+    } else {
+        println("not good 1.0e-50");
+    }
+}

@@ -1,0 +1,19 @@
+// Description:
+//    Test : Condition imbriquée avec plusieurs branches if-else.
+//
+// Résultats:
+//    Doit afficher la valeur correspondant à la bonne condition.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int n = 7;
+    if (n < 5) {
+        println("Small");
+    } else if (n > 10) {
+        println("Large");
+    } else {
+        println("Medium");
+    }
+}

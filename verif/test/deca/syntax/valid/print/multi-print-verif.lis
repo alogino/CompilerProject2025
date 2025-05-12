@@ -1,0 +1,20 @@
+`> [1, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [1, 0] Main
+      +> ListDeclVar [List with 0 elements]
+      `> ListInst [List with 1 elements]
+         []> [2, 8] Println
+             `> ListExpr [List with 13 elements]
+                []> [2, 16] StringLiteral (Hello )
+                []> [2, 26] StringLiteral (this )
+                []> [2, 35] StringLiteral (is )
+                []> [2, 42] StringLiteral (multiple )
+                []> [2, 55] StringLiteral (strings )
+                []> [2, 67] StringLiteral (in )
+                []> [2, 74] StringLiteral (one )
+                []> [3, 16] StringLiteral (print )
+                []> [3, 26] StringLiteral (statement )
+                []> [3, 40] StringLiteral (and )
+                []> [3, 48] StringLiteral (on )
+                []> [3, 55] StringLiteral (different )
+                []> [3, 69] StringLiteral (lines.)

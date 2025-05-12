@@ -1,0 +1,15 @@
+// Description:
+//    Test : Multiplication de deux entiers positifs.
+//
+// Résultats:
+//    Le programme doit afficher le produit des deux entiers.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int x = 3;
+    int y = 4;
+    int z = x * y;
+    println(z);
+}

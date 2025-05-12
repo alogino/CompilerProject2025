@@ -1,0 +1,6 @@
+class Person {
+    float age;
+    void getAge(float age){
+        println(age);
+    }
+}

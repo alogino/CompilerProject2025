@@ -1,0 +1,32 @@
+`> [1, 0] Program
+   +> ListDeclClass [List with 1 elements]
+   |  []> [1, 0] DeclClass
+   |      +> [1, 6] Identifier (TestIfElseIf)
+   |      +> [builtin] Identifier (Object)
+   |      +> ListDeclField [List with 0 elements]
+   |      `> ListDeclMethod [List with 1 elements]
+   |         []> [2, 4] DeclMethod
+   |             +> [2, 4] Identifier (void)
+   |             +> [2, 9] Identifier (test)
+   |             +> ListDeclParam [List with 0 elements]
+   |             `> [2, 16] MethodBody
+   |                +> ListDeclVar [List with 0 elements]
+   |                `> ListInst [List with 1 elements]
+   |                   []> [3, 8] IfThenElse
+   |                       +> [3, 12] Identifier (cond1)
+   |                       +> ListInst [List with 1 elements]
+   |                       |  []> [4, 15] Assign
+   |                       |      +> [4, 12] Identifier (x)
+   |                       |      `> [4, 14] Int (1)
+   |                       `> ListInst [List with 1 elements]
+   |                          []> [5, 15] IfThenElse
+   |                              +> [5, 19] Identifier (cond2)
+   |                              +> ListInst [List with 1 elements]
+   |                              |  []> [6, 15] Assign
+   |                              |      +> [6, 12] Identifier (y)
+   |                              |      `> [6, 14] Int (2)
+   |                              `> ListInst [List with 1 elements]
+   |                                 []> [8, 15] Assign
+   |                                     +> [8, 12] Identifier (z)
+   |                                     `> [8, 14] Int (3)
+   `> EmptyMain

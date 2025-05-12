@@ -1,0 +1,15 @@
+// Description:
+//    Test : Soustraction de deux entiers, résultat négatif.
+//
+// Résultats:
+//    Le programme doit afficher un nombre négatif.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int x = 10;
+    int y = 20;
+    int z = x - y;
+    println(z);
+}

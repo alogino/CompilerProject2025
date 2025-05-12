@@ -1,0 +1,14 @@
+// Description :
+//  Appel de méthode avec un type d'argument incorrect.
+// Résultats :
+//    Erreur : Argument 1 of method 'myMethod' does not match the expected type. Expected: 'int', Found: 'String'.
+// Historique :
+//    créé le 19/01/2025
+class MyClass {
+    void myMethod(int a) {}
+}
+
+{
+    MyClass obj = new MyClass();
+    obj.myMethod("notAnInt"); 
+}

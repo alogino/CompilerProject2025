@@ -1,0 +1,11 @@
+// Description:
+//    Test : Déclaration d'une variable flottante simple initialisée à 1.0.
+//
+// Résultats:
+//    Le programme doit se compiler et exécuter correctement.
+//
+// Historique:
+//    créé le 01/01/2025
+{
+    float x = 1.0;
+}

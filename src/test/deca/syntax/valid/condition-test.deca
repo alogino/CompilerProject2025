@@ -1,0 +1,16 @@
+// Description:
+//    Programme qui vérifie si une variable entière `x` est supérieure à 10, et affecte une nouvelle valeur en conséquence.
+//
+// Resultats:
+//    Pas de sortie attendue.
+//
+// Historique:
+//    cree le 01/01/2025
+{
+    int x = 15;
+    if (x > 10) {
+        x = 5;
+    } else {
+        x = 20;
+    }
+}

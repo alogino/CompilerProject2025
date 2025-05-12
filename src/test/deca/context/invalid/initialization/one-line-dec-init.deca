@@ -1,0 +1,12 @@
+// Description:
+//    Programme minimaliste déclarant et initialisant un int dans une seule ligne
+//
+// Resultats:
+//    error : types incompatibles
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+    int a = true;
+}

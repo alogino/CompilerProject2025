@@ -1,0 +1,25 @@
+`> [1, 0] Program
+   +> ListDeclClass [List with 1 elements]
+   |  []> [1, 0] DeclClass
+   |      +> [1, 6] Identifier (Person)
+   |      +> [builtin] Identifier (Object)
+   |      +> ListDeclField [List with 1 elements]
+   |      |  []> [2, 10] [visibility=PUBLIC] DeclField
+   |      |      +> [2, 4] Identifier (float)
+   |      |      +> [2, 10] Identifier (age)
+   |      |      `> NoInitialization
+   |      `> ListDeclMethod [List with 1 elements]
+   |         []> [3, 4] DeclMethod
+   |             +> [3, 4] Identifier (void)
+   |             +> [3, 9] Identifier (getAge)
+   |             +> ListDeclParam [List with 1 elements]
+   |             |  []> [3, 16] DeclParam
+   |             |      +> [3, 16] Identifier (float)
+   |             |      `> [3, 22] Identifier (age)
+   |             `> [3, 26] MethodBody
+   |                +> ListDeclVar [List with 0 elements]
+   |                `> ListInst [List with 1 elements]
+   |                   []> [4, 8] Println
+   |                       `> ListExpr [List with 1 elements]
+   |                          []> [4, 16] Identifier (age)
+   `> EmptyMain

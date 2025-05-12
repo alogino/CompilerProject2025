@@ -1,0 +1,10 @@
+// Description :
+//  Appel de méthode sur une classe non définie.
+// Résultats :
+//    Erreur : Class 'UndefinedClass' not found.
+// Historique :
+//    créé le 19/01/2025
+{
+    UndefinedClass obj = new UndefinedClass();
+    obj.someMethod(); 
+}

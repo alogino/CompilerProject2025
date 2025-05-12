@@ -1,0 +1,19 @@
+`> [9, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [9, 0] Main
+      +> ListDeclVar [List with 1 elements]
+      |  []> [10, 8] DeclVar
+      |      +> [10, 4] Identifier (int)
+      |      +> [10, 8] Identifier (x)
+      |      `> [10, 12] Initialization
+      |         `> [10, 12] Int (10)
+      `> ListInst [List with 1 elements]
+         []> [11, 4] IfThenElse
+             +> [11, 8] Greater
+             |  +> [11, 8] Identifier (x)
+             |  `> [11, 12] Int (5)
+             +> ListInst [List with 1 elements]
+             |  []> [12, 8] Println
+             |      `> ListExpr [List with 1 elements]
+             |         []> [12, 16] Identifier (x)
+             `> ListInst [List with 0 elements]

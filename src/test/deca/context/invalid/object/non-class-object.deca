@@ -1,0 +1,10 @@
+// Description :
+//  Appel de méthode sur un objet qui n'est pas une classe.
+// Résultats :
+//    Erreur : Method call must be performed on an object of a class type.
+// Historique :
+//    créé le 19/01/2025
+{
+    int nonClassObject = 42;
+    nonClassObject.someMethod(); 
+}

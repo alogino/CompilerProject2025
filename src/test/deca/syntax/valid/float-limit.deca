@@ -1,0 +1,9 @@
+{
+float x = 0.0;
+float y = -123.45;
+float z = 1.2e+10;
+float w = 0x1.2p3;
+   // x = 0x1.fffffffffffffp1023; // Max double en base 16
+    y = 0x1.0p-149;            // Plus petit float normalisé
+   //z = 0x1.0p-150;
+}

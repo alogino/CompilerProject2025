@@ -1,0 +1,32 @@
+`> [18, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [18, 0] Main
+      +> ListDeclVar [List with 0 elements]
+      `> ListInst [List with 9 elements]
+         []> [19, 4] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [19, 12] Float (4.2)
+         []> [20, 4] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [20, 12] Float (4.2)
+         []> [21, 4] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [21, 12] Float (4.2)
+         []> [22, 4] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [22, 12] Float (42.3)
+         []> [23, 4] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [23, 12] Float (42.3)
+         []> [24, 4] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [24, 12] Float (42.3)
+         []> [25, 4] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [25, 12] Float (0.42)
+         []> [26, 4] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [26, 12] Float (0.42)
+         []> [27, 4] Println
+             `> ListExpr [List with 1 elements]
+                []> [27, 12] Float (0.42)

@@ -1,0 +1,13 @@
+// Description:
+//    Utilisation d'un float dans une expression logique
+//
+// Résultats:
+//    Erreur de compilation: types incompatibles
+
+{
+   float a;
+   a = 1.5;
+   if (a || true) { 
+      println("Vrai");
+   }
+}

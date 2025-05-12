@@ -1,0 +1,18 @@
+// Description:
+//    Comparaison entre deux entiers
+//
+// Résultats:
+//    result1: vrai si a est inférieur à b
+//    result2: vrai si b est inférieur à a
+{
+    int a = 5;
+    int b = 10;
+    boolean result1 = (a < b);
+    boolean result2 = (b < a);
+    if(result1){
+        println("a<b");
+    }
+    if(result2){
+        println("a>b");
+    }
+}

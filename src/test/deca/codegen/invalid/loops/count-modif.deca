@@ -1,0 +1,13 @@
+// Description:
+//    Modification du compteur de la boucle à l'intérieur de celle-ci
+//
+// Résultats:
+//    Erreur de compilation: compteur modifié dans la boucle
+
+{
+   int i;
+   for (i = 0; i < 10; i = i + 1) {
+      i = i + 2; 
+      println(i);
+   }
+}

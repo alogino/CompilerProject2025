@@ -1,0 +1,13 @@
+// Description :
+//    Négation arithmétique d'un entier
+// Résultats :
+//    Pas d'erreur de contexte
+//
+// Historique :
+//    créé le 12/01/2025
+{
+    int x;
+    int y;
+    x = 5;
+    y = -x;
+}

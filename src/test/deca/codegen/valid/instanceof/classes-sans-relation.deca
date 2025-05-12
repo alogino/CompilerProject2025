@@ -1,0 +1,20 @@
+// Description:
+//    Test : Vérification avec des classes sans relation directe.
+//
+// Résultats:
+//    Doit afficher que l'instance n'est pas d'une autre classe sans lien.
+//
+// Historique:
+//    créé le 01/01/2025
+
+class Rectangle {}
+class Cercle {}
+
+{
+    if (!(new Rectangle() instanceof Cercle)) {
+        println("Un rectangle n'est pas un cercle");
+    }
+    if (!(new Cercle() instanceof Rectangle)) {
+        println("Un cercle n'est pas un rectangle");
+    }
+}

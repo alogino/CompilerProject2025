@@ -1,0 +1,29 @@
+// Description:
+//    Test 2 : Accès à une variable privée d'une autre classe
+//
+// Résultats:
+//    Devrait générer une erreur, car la variable est privée.
+//
+// Historique:
+//    créé le 20/01/2025
+
+class A {
+    protected int x;
+
+    void setX(int x) {
+        this.x = x;
+    }
+}
+
+class B {
+    void afficher() {
+        A a = new A();
+        a.setX(5);
+        println(a.x);
+    }
+}
+
+{
+    B b = new B();
+    b.afficher();
+}

@@ -1,0 +1,21 @@
+`> [9, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [9, 0] Main
+      +> ListDeclVar [List with 3 elements]
+      |  []> [10, 10] DeclVar
+      |  ||  +> [10, 4] Identifier (float)
+      |  ||  +> [10, 10] Identifier (x)
+      |  ||  `> [10, 14] Initialization
+      |  ||     `> [10, 14] Float (1.0)
+      |  []> [11, 10] DeclVar
+      |  ||  +> [11, 4] Identifier (float)
+      |  ||  +> [11, 10] Identifier (y)
+      |  ||  `> [11, 14] Initialization
+      |  ||     `> [11, 14] UnaryMinus
+      |  ||        `> [11, 15] Float (3.0)
+      |  []> [12, 10] DeclVar
+      |      +> [12, 4] Identifier (float)
+      |      +> [12, 10] Identifier (z)
+      |      `> [12, 14] Initialization
+      |         `> [12, 14] Float (3.402822E38)
+      `> ListInst [List with 0 elements]

@@ -1,0 +1,13 @@
+// Description:
+//    Booléen utilisé comme opérande dans une opération arithmétique
+//
+// Résultats:
+//    Erreur de compilation: types incompatibles
+
+{
+   boolean a;
+   int b;
+   a = true;
+   b = a + 1; 
+   println(b);
+}

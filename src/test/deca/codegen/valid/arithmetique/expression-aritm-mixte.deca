@@ -1,0 +1,16 @@
+// Description:
+//    Test : Combinaison de plusieurs opérations arithmétiques.
+//
+// Résultats:
+//    Le programme doit afficher le résultat final de l'expression.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int x = 5;
+    int y = 10;
+    int z = 3;
+    int result = (x + y) * z - y / x;
+    println(result);
+}

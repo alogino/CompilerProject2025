@@ -1,0 +1,12 @@
+// Description :
+//    Assignations imbriquées
+// Résultats :
+//    5
+// Historique :
+//    créé le 16/01/2025
+{
+    int a;
+    a = (a = 5);
+
+    println(a);
+}

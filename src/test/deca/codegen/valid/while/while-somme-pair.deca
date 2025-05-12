@@ -1,0 +1,23 @@
+// Description:
+//    Test : Calcule la somme des nombres pairs entre 1 et une limite donnée.
+//
+// Résultats:
+//    Affiche la somme des nombres pairs.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int x = 1;
+    int limit = 10;
+    int sum = 0;
+
+    while (x <= limit) {
+        if (x % 2 == 0) {
+            sum = sum + x;
+        }
+        x = x + 1;
+    }
+
+    println("Somme des nombres pairs : ", sum);
+}

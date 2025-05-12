@@ -1,0 +1,14 @@
+// Description:
+//    Condition non booléenne dans une boucle while
+//
+// Résultats:
+//    Erreur de compilation: condition non booléenne
+
+{
+   int a;
+   a = 5;
+   while (a) { 
+      println(a);
+      a = a - 1;
+   }
+}

@@ -1,0 +1,13 @@
+// Description:
+//    Dépassement dû à une multiplication
+//
+// Résultats:
+//    Erreur d'exécution: dépassement d'entier
+
+{
+   int a, b, c;
+   a = 100000;
+   b = 100000;
+   c = a * b; 
+   println(c);
+}

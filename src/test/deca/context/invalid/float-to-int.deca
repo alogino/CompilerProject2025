@@ -1,0 +1,15 @@
+// Description:
+//    Test : Compatibilité float -> int
+//
+// Resultats:
+//     Doit échouer avec un message d'erreur demandant une conversion explicite.
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+    int a;
+    float b;
+    a = b;
+    println(a);
+}

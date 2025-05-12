@@ -1,0 +1,16 @@
+// Description:
+//    Test : Déclaration de plusieurs variables flottantes avec des valeurs variées,
+//    y compris des littéraux en notation scientifique et hexadécimale.
+//
+// Résultats:
+//    Le programme doit se compiler et exécuter correctement, affichant les valeurs des variables.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+float x = 0.0;
+float y = -123.45;
+float z = 1.2e10;
+float w = 0x1.2p3; // Flottant hexadécimal
+}

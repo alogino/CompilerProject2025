@@ -1,0 +1,36 @@
+// Description:
+//    Test : Appel d'une méthode d'une autre classe.
+//    Vérification de l'interaction entre deux classes via l'appel de méthode.
+//
+// Résultats:
+//    Doit afficher les résultats attendus en appelant la méthode d'une autre classe.
+//
+// Historique:
+//    créé le 20/01/2025
+
+class A {
+    void methodeA() {
+        println("Méthode A appelée");
+    }
+}
+
+class B {
+    A a;
+
+    void setA(A a) {
+        this.a = a;
+    }
+
+    void methodeB() {
+        println("Méthode B appelée");
+        this.a.methodeA();  
+    }
+}
+
+{
+    A a = new A();
+    B b = new B();
+
+    b.setA(a);
+    b.methodeB();
+}

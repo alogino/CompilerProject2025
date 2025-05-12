@@ -1,0 +1,17 @@
+// Description :
+//  Test surcharge de méthode valide avec le même type de retour et la même signature.
+// Résultats :
+//    Aucun erreur.
+// Historique :
+//    créé le 19/01/2025
+class Parent {
+    int overrideMethod(int a, int b) {
+        return a + b;
+    }
+}
+
+class Child extends Parent {
+    int overrideMethod(int a, int b) {
+        return a * b;
+    }
+}

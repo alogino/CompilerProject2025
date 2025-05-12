@@ -1,0 +1,12 @@
+// Description:
+//    Dépassement de capacité d'un entier
+//
+// Résultats:
+//    Erreur d'exécution: dépassement d'entier
+
+{
+   int a;
+   a = 2147483647;
+   a = a + 1;      
+   println(a);
+}

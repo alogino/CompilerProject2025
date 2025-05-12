@@ -1,0 +1,12 @@
+// Description:
+//    Programme qui déclare une variable entière `a` et une variable flottante `b` initialisée à 3.14.
+//
+// Resultats:
+//    Pas de sortie attendue.
+//
+// Historique:
+//    cree le 01/01/2025
+{
+    int a;
+    float b = 3.14;
+}

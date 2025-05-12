@@ -1,0 +1,15 @@
+// Description :
+//  Test répétition de nom de méthode avec les mêmes paramètres.
+// Résultats :
+//    Erreur : Method compute is already defined in current environment.
+// Historique :
+//    créé le 19/01/2025
+class Calculator {
+    int compute(int a) {
+        return a + 1;
+    }
+
+    int compute(int a) { 
+        return a + 2;
+    }
+}

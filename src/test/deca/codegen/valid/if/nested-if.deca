@@ -1,0 +1,17 @@
+// Description:
+//    Test de plusieurs blocs conditionnels
+//
+// Résultats:
+//    If interne exécuté
+// Historique :
+//    créé le 16/01/2025
+{
+    int a, b;
+    a = 10;
+    b = 5;
+    if (a > b) {
+        if (b > 0) {
+            println("If interne exécuté");
+        }
+    }
+}

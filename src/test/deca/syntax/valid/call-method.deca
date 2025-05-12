@@ -1,0 +1,11 @@
+// Description:
+//    Programme qui effectue un appel de méthode sur un objet `myObject` avec deux arguments.
+//
+// Resultats:
+//    Dépend de l'implémentation de `myMethod`.
+//
+// Historique:
+//    cree le 01/01/2025
+{
+    myObject.myMethod(42, "Hello");
+}

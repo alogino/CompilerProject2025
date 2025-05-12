@@ -1,0 +1,50 @@
+`> [8, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [8, 0] Main
+      +> ListDeclVar [List with 3 elements]
+      |  []> [9, 8] DeclVar
+      |  ||  +> [9, 4] Identifier (int)
+      |  ||  |  definition: type (builtin), type=int
+      |  ||  +> [9, 8] Identifier (x)
+      |  ||  |  definition: variable defined at [9, 8], type=int
+      |  ||  `> [9, 12] Initialization
+      |  ||     `> [9, 12] Int (10)
+      |  ||        type: int
+      |  []> [10, 10] DeclVar
+      |  ||  +> [10, 4] Identifier (float)
+      |  ||  |  definition: type (builtin), type=float
+      |  ||  +> [10, 10] Identifier (y)
+      |  ||  |  definition: variable defined at [10, 10], type=float
+      |  ||  `> [10, 14] Initialization
+      |  ||     `> [10, 14] UnaryMinus
+      |  ||        type: float
+      |  ||        `> [10, 15] Float (5.5)
+      |  ||           type: float
+      |  []> [11, 12] DeclVar
+      |      +> [11, 4] Identifier (boolean)
+      |      |  definition: type (builtin), type=boolean
+      |      +> [11, 12] Identifier (b)
+      |      |  definition: variable defined at [11, 12], type=boolean
+      |      `> [11, 16] Initialization
+      |         `> [11, 16] And
+      |            type: boolean
+      |            +> [11, 21] And
+      |            |  type: boolean
+      |            |  +> [11, 16] BooleanLiteral (true)
+      |            |  |  type: boolean
+      |            |  `> [11, 24] Greater
+      |            |     type: boolean
+      |            |     +> [11, 25] Identifier (x)
+      |            |     |  definition: variable defined at [9, 8], type=int
+      |            |     `> [11, 29] Int (0)
+      |            |        type: int
+      |            `> [11, 35] Not
+      |               type: boolean
+      |               `> [11, 36] Lower
+      |                  type: boolean
+      |                  +> [11, 37] Identifier (y)
+      |                  |  definition: variable defined at [10, 10], type=float
+      |                  `> ConvFloat
+      |                     `> [11, 41] Int (0)
+      |                        type: int
+      `> ListInst [List with 0 elements]

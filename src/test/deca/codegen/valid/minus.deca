@@ -1,0 +1,12 @@
+// Description:
+//    Calculs avec des entiers
+//
+// Résultats:
+//    Affiche le résultat de c = (a - b)
+{
+    int a = 10 - 5;
+    int b = 20 - 15;
+    int c = a - b;
+
+    println(c);
+}

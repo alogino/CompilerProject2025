@@ -1,0 +1,18 @@
+// Description :
+//  Boucle while avec un compteur multiple
+// Résultats :
+//    Compteur A : 1, Compteur B : 2
+//    Compteur A : 2, Compteur B : 4
+//    Compteur A : 3, Compteur B : 6
+// Historique :
+//    créé le 16/01/2025
+{
+    int a, b;
+    a = 1;
+    b = 2;
+    while (a <= 3) {
+        println("Compteur A : ", a, ", Compteur B : ", b);
+        a = a + 1;
+        b = b + 2;
+    }
+}

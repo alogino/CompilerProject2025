@@ -1,0 +1,12 @@
+// Description:
+//    Condition incorrecte dans une boucle for
+//
+// Résultats:
+//    Erreur de compilation: types incompatibles
+
+{
+   int i;
+   for (i = 0; i; i = i + 1) { 
+      println(i);
+   }
+}

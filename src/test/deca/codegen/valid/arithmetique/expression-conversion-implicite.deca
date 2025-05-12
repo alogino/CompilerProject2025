@@ -1,0 +1,13 @@
+// Description:
+//    Test : Expression combinant des flottants et des entiers avec conversion implicite.
+//
+// Résultats:
+//    Doit afficher le résultat de l'expression mixte.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    float result = 2 + 5.5 * 2 - 1;
+    println(result);
+}

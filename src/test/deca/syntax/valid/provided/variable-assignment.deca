@@ -1,0 +1,11 @@
+// Description:
+//    Test pour l'assignation et affichage d'une variable.
+//
+// Resultats:
+//    42
+//
+{
+    int x;
+    x = 42;
+    println(x);
+}

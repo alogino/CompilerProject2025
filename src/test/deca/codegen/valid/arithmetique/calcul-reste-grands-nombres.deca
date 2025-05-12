@@ -1,0 +1,15 @@
+// Description:
+//    Test : Calcul du reste de divisions entières avec de grandes valeurs.
+//
+// Résultats:
+//    Doit afficher les restes correctement calculés.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int a = 12345 % 67;
+    int b = 98765 % 4321;
+    println(a);
+    println(b);
+}

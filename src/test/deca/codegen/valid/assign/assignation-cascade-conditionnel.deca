@@ -1,0 +1,13 @@
+// Description :
+//    Assignation en cascade avec conditionnel
+// Résultats :
+//    OK
+// Historique :
+//    créé le 16/01/2025
+{
+    int a, b, c;
+    a = (b = (c = 10));
+    if (a == b && b == c) {
+        println("OK");
+    }
+}

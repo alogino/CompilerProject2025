@@ -1,0 +1,12 @@
+// Description :
+//  Appel d'une méthode non définie dans la classe.
+// Résultats :
+//    Erreur : Method 'undefinedMethod' does not exist in class 'MyClass'.
+// Historique :
+//    créé le 19/01/2025
+class MyClass {}
+
+{
+    MyClass obj = new MyClass();
+    obj.undefinedMethod(); 
+}

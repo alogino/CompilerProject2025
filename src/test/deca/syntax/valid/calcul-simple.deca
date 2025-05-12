@@ -1,0 +1,14 @@
+// Description:
+//    Programme qui déclare une variable entière `x`, l'initialise avec la valeur 10,
+//    et affiche la somme de `x` et de 5.
+//
+// Resultats:
+//    15
+//
+// Historique:
+//    cree le 01/01/2025
+{
+    int x;
+    x = 10;
+    println(x + 5);
+}

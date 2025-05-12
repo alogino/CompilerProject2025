@@ -1,0 +1,12 @@
+// Description:
+//    Dépassement de capacité d'un entier négatif
+//
+// Résultats:
+//    Erreur d'exécution: dépassement d'entier
+
+{
+   int a;
+   a = -2147483648; // Valeur minimale pour un int
+   a = a - 1;
+   println(a);
+}

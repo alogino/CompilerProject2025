@@ -1,0 +1,11 @@
+class TestIfElseIf {
+    void test() {
+        if (cond1) {
+            x=1;
+        } else if (cond2) {
+            y=2;
+        } else {
+            z=3;
+        }
+    }
+}

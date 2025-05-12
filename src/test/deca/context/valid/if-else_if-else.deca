@@ -1,0 +1,20 @@
+// Description:
+//    test condition (if, else if, else) et println
+//
+// Resultats:
+//
+//
+//
+// Historique:
+//    cree le 01/01/2025
+
+
+{
+    if (true) {
+        println("if branch");
+    } else if (false) {
+        println("elseif branch");
+    } else {
+        println("else branch");
+    }
+}

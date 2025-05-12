@@ -1,0 +1,17 @@
+// Description :
+//    Assignation conditionnelle
+// Résultats :
+//    20
+// Historique :
+//    créé le 16/01/2025
+{
+    int a = 10, b;
+    if  (a > 5) {
+        b = a * 2;
+    }
+    else {
+        a / 2;
+    }
+
+    println(b);
+}

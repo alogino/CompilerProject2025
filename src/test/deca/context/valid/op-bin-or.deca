@@ -1,0 +1,12 @@
+// Description :
+//    Opérateur logique OR entre deux booléens
+// Résultats :
+//    
+//
+// Historique :
+//    créé le 12/01/2025
+{
+    boolean a = true;
+    boolean b = false;
+    boolean c = a || b;
+}

@@ -1,0 +1,17 @@
+class A {
+   void f()
+   {
+      println("f");
+   }
+
+   void F()
+   {
+      println("F");
+   }
+}
+
+{
+   A a = new A();
+   a.f();
+   a.F();
+}

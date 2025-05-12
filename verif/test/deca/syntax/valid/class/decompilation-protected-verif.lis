@@ -1,0 +1,17 @@
+`> [1, 0] Program
+   +> ListDeclClass [List with 1 elements]
+   |  []> [1, 0] DeclClass
+   |      +> [1, 6] Identifier (Test)
+   |      +> [builtin] Identifier (Object)
+   |      +> ListDeclField [List with 2 elements]
+   |      |  []> [2, 18] [visibility=PROTECTED] DeclField
+   |      |  ||  +> [2, 14] Identifier (int)
+   |      |  ||  +> [2, 18] Identifier (x)
+   |      |  ||  `> NoInitialization
+   |      |  []> [2, 21] [visibility=PROTECTED] DeclField
+   |      |      +> [2, 14] Identifier (int)
+   |      |      +> [2, 21] Identifier (y)
+   |      |      `> Initialization
+   |      |         `> [2, 25] Identifier (x)
+   |      `> ListDeclMethod [List with 0 elements]
+   `> EmptyMain

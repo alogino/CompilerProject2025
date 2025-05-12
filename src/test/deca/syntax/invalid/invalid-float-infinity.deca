@@ -1,0 +1,4 @@
+{
+    float x = 1e40; // Trop grand pour IEEE-754 simple précision
+    float y = -1e40; // Trop petit (négatif), devrait lever une erreur
+}

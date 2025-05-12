@@ -1,0 +1,13 @@
+// Description:
+//    Test : Utilisation d'une condition invalide dans une structure `if`.
+//
+// Résultats:
+//    Doit échouer avec un message d'erreur indiquant que les types des opérandes de l'opération `+` ne sont pas compatibles.
+//
+// Historique:
+//    créé le 11/01/2025
+{
+    if (10000+2/3) {
+        println("never");
+    }
+}

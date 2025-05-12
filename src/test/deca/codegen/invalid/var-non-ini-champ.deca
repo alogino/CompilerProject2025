@@ -1,0 +1,14 @@
+// Description:
+//    Accès à un champ d'une variable non initialisée.
+//
+// Résultats:
+//    Erreur d'exécution: variable non initialisée.
+
+class A {
+    int x;
+}
+
+{
+    A a;
+    println(a.x);
+}

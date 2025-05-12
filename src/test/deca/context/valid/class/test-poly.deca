@@ -1,0 +1,22 @@
+// Description:
+//    Déclaration d'une classe A avec des attributs et des méthodes.
+//    Une instance de A est créée, son attribut `x` est modifié avec `setX`
+//    et sa valeur est affichée avec `getX`.
+//
+// Résultats:
+//    Affiche "a.getX() = 1" sur la console.
+class A {
+   protected int x ;
+   int getX() {
+      return x ;
+   }
+   void setX(int x) {
+      this.x = x ;
+   }
+}
+
+{
+   A a = new A() ;
+   a.setX(1) ;
+   println("a.getX() = ", a.getX()) ;
+}

@@ -1,0 +1,10 @@
+class X {}
+
+class Y extends X{}
+
+{
+	X x = new X();
+	Y y = new Y();
+	x= (X)(y);
+}
+

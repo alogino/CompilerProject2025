@@ -1,0 +1,15 @@
+// Description :
+//    Succession d'assigns dans une expression
+// Résultats :
+//    13
+//
+// Historique :
+//    créé le 16/01/2025
+{
+    int a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v;
+    a = (b = (c = 200));
+
+    if ((a = (b = (c = (d = (e = (f = (g = (h = (i = (j = (k = (l = (m = (n = (o = (p = (q = (r = (s = (t = (u = (v = 13)))))))))))))))))))))) < 14) {
+        println(a);
+    }
+}

@@ -1,0 +1,6 @@
+{
+	float a;
+
+	a = -4.4;
+	println(a);
+}

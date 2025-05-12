@@ -1,0 +1,13 @@
+// Description:
+//    Affectation d'un float dans un int sans conversion explicite
+//
+// Résultats:
+//    Erreur de compilation: types incompatibles
+
+{
+   float a;
+   int b;
+   a = 3.5;
+   b = a; 
+   println(b);
+}

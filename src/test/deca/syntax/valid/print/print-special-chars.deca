@@ -1,0 +1,14 @@
+// Description:
+//    Programme minimaliste affichant un nombre flottant.
+//
+// Résultats:
+//    \
+//    "
+//
+// Historique:
+//    créé le 09/01/2025
+
+{
+    println("\\");
+    println("\"");
+}

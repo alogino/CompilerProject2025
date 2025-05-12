@@ -1,0 +1,16 @@
+// Description:
+//    Test : Incrémentation multiple dans une boucle while.
+//
+// Résultats:
+//    Doit afficher la valeur finale de la variable après la boucle.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int count = 0;
+    while (count <= 15) {
+        count = count + 3;
+    }
+    println(count);
+}

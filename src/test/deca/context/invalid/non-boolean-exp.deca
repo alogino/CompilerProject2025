@@ -1,0 +1,11 @@
+// Description:
+//    Opérateur logique avec des opérandes non booléens
+// Résultats :
+//    Erreur de type : "L'expression n'est pas de type booléen"
+//
+// Historique :
+//    créé le 11/01/2025
+{
+    boolean result;
+    result = (5 && 10);  
+}

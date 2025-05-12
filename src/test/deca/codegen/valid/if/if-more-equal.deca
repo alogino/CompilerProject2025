@@ -1,0 +1,14 @@
+// Description :
+//  Utilisation des comparateurs
+// Résultats :
+//    x est supérieur ou égal à y
+// Historique :
+//    créé le 17/01/2025
+{
+    int x, y;
+    x = 10;
+    y = 5;
+    if (x >= y) {
+        println("x est supérieur ou égal à y");
+    }
+}

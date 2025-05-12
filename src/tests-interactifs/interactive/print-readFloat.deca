@@ -1,0 +1,12 @@
+// Description :
+//  Lecture et affichage direct d'un flottant.
+// Résultats (exemple):
+//    Entrez un nombre flottant : 3.14
+//    Vous avez saisi : 3.14
+// Historique :
+//    créé le 19/01/2025
+{
+    println("Entrez un nombre flottant : ");
+    print("Vous avez saisi : ");
+    print(readFloat());
+}

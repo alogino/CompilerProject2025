@@ -1,0 +1,21 @@
+// Description:
+//    Test : Dépassement des limites des entiers et vérification de l'égalité après inversion.
+//
+// Résultats:
+//    Doit imprimer "KO" avec les valeurs de x et y après dépassement.
+//
+// Historique:
+//    créé le 01/01/2025
+{
+
+    int a = 1073741823;
+    int b =  2147483647;
+    int c = - a - (b/2) ;
+
+    a = 2*a + 4;
+    if (c ==a) {
+        println("YESSSSSSSS");
+    } else {
+        println("NOOOOOO", c, a);
+    }
+}

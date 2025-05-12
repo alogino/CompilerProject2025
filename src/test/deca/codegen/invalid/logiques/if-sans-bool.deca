@@ -1,0 +1,13 @@
+// Description:
+//    Expression non booléenne dans une condition
+//
+// Résultats:
+//    Erreur de compilation: expression non booléenne
+
+{
+   int a;
+   a = 5;
+   if (a) { 
+      println("Condition valide");
+   }
+}

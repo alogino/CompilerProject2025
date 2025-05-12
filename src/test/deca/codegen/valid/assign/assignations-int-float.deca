@@ -1,0 +1,16 @@
+// Description :
+//    Assignations entre int et float
+// Résultats :
+//    10
+//    20.0
+// Historique :
+//    créé le 16/01/2025
+{
+    int a;
+    float b;
+    a = 10;
+    b = a * 2;
+
+    println(a);
+    println(b);
+}

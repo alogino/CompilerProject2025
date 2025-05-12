@@ -1,0 +1,12 @@
+// Description:
+//    Programme avec une accolade fermante manquante.
+//
+// Résultats:
+//    Ligne 6 : Erreur de syntaxe.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    println("Bonjour!");
+    println("Erreur");

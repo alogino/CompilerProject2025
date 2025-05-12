@@ -1,0 +1,8 @@
+// Description:
+//    Déclaration incorrecte d'une classe Person. L'attribut `age` est défini avec `protected` mais sans type.
+//
+// Résultats:
+//    Erreur de compilation : type manquant pour l'attribut `protected`.
+class Person {
+    protected age = 2;
+}

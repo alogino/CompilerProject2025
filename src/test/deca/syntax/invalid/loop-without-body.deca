@@ -1,0 +1,11 @@
+// Description:
+//    Test : Boucle infinie sans instructions.
+//
+// Resultats:
+//    Doit échouer avec un message d'erreur signalant une boucle invalide.
+//
+// Historique:
+//    cree le 01/01/2025
+{
+    while (true);
+}

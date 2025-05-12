@@ -1,0 +1,24 @@
+// Description:
+//    Test : Vérification de base de l'opérateur instanceof avec héritage simple.
+//
+// Résultats:
+//    Doit afficher que chaque sous-classe est une instance de sa superclasse.
+//
+// Historique:
+//    créé le 01/01/2025
+
+class Vehicule {}
+class Voiture extends Vehicule {}
+class Moto extends Vehicule {}
+
+{
+    if (new Voiture() instanceof Vehicule) {
+        println("Une voiture est un véhicule");
+    }
+    if (new Moto() instanceof Vehicule) {
+        println("Une moto est un véhicule");
+    }
+    if (!(new Voiture() instanceof Moto)) {
+        println("Une voiture n'est pas une moto");
+    }
+}

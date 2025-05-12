@@ -1,0 +1,11 @@
+// Description :
+//    Négation logique appliquée à un entier
+// Résultats :
+//    Erreur de contexte : "Type incompatible pour l'opérateur unaire !"
+//
+// Historique :
+//    créé le 12/01/2025
+{
+    int x = 5;
+    boolean y = !x;
+}

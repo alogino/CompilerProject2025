@@ -1,0 +1,69 @@
+`> [7, 0] Program
+   +> ListDeclClass [List with 2 elements]
+   |  []> [7, 0] DeclClass
+   |  ||  +> [7, 6] Identifier (Parent)
+   |  ||  |  definition: type defined at [7, 0], type=Parent
+   |  ||  +> [builtin] Identifier (Object)
+   |  ||  |  definition: type (builtin), type=Object
+   |  ||  +> ListDeclField [List with 0 elements]
+   |  ||  `> ListDeclMethod [List with 1 elements]
+   |  ||     []> [8, 4] DeclMethod
+   |  ||         +> [8, 4] Identifier (int)
+   |  ||         |  definition: type (builtin), type=int
+   |  ||         +> [8, 8] Identifier (overrideMethod)
+   |  ||         |  definition: method defined at [8, 4], type=int
+   |  ||         +> ListDeclParam [List with 2 elements]
+   |  ||         |  []> [8, 23] DeclParam
+   |  ||         |  ||  +> [8, 23] Identifier (int)
+   |  ||         |  ||  |  definition: type (builtin), type=int
+   |  ||         |  ||  `> [8, 27] Identifier (a)
+   |  ||         |  ||     definition: parameter defined at [8, 23], type=int
+   |  ||         |  []> [8, 30] DeclParam
+   |  ||         |      +> [8, 30] Identifier (int)
+   |  ||         |      |  definition: type (builtin), type=int
+   |  ||         |      `> [8, 34] Identifier (b)
+   |  ||         |         definition: parameter defined at [8, 30], type=int
+   |  ||         `> [8, 37] MethodBody
+   |  ||            +> ListDeclVar [List with 0 elements]
+   |  ||            `> ListInst [List with 1 elements]
+   |  ||               []> [9, 8] Return
+   |  ||                   `> [9, 15] Plus
+   |  ||                      type: int
+   |  ||                      +> [9, 15] Identifier (a)
+   |  ||                      |  definition: parameter defined at [8, 23], type=int
+   |  ||                      `> [9, 19] Identifier (b)
+   |  ||                         definition: parameter defined at [8, 30], type=int
+   |  []> [13, 0] DeclClass
+   |      +> [13, 6] Identifier (Child)
+   |      |  definition: type defined at [13, 0], type=Child
+   |      +> [13, 20] Identifier (Parent)
+   |      |  definition: type defined at [7, 0], type=Parent
+   |      +> ListDeclField [List with 0 elements]
+   |      `> ListDeclMethod [List with 1 elements]
+   |         []> [14, 4] DeclMethod
+   |             +> [14, 4] Identifier (int)
+   |             |  definition: type (builtin), type=int
+   |             +> [14, 8] Identifier (overrideMethod)
+   |             |  definition: method defined at [14, 4], type=int
+   |             +> ListDeclParam [List with 2 elements]
+   |             |  []> [14, 23] DeclParam
+   |             |  ||  +> [14, 23] Identifier (int)
+   |             |  ||  |  definition: type (builtin), type=int
+   |             |  ||  `> [14, 27] Identifier (a)
+   |             |  ||     definition: parameter defined at [14, 23], type=int
+   |             |  []> [14, 30] DeclParam
+   |             |      +> [14, 30] Identifier (int)
+   |             |      |  definition: type (builtin), type=int
+   |             |      `> [14, 34] Identifier (b)
+   |             |         definition: parameter defined at [14, 30], type=int
+   |             `> [14, 37] MethodBody
+   |                +> ListDeclVar [List with 0 elements]
+   |                `> ListInst [List with 1 elements]
+   |                   []> [15, 8] Return
+   |                       `> [15, 15] Multiply
+   |                          type: int
+   |                          +> [15, 15] Identifier (a)
+   |                          |  definition: parameter defined at [14, 23], type=int
+   |                          `> [15, 19] Identifier (b)
+   |                             definition: parameter defined at [14, 30], type=int
+   `> EmptyMain

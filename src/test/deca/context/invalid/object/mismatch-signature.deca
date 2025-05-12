@@ -1,0 +1,17 @@
+// Description :
+//  Test surcharge de méthode avec une signature de paramètres incompatible.
+// Résultats :
+//    Erreur : overrideMethod method override is invalid: mismatch in signature.
+// Historique :
+//    créé le 19/01/2025
+class Parent {
+    int overrideMethod(int a, int b) {
+        return a + b;
+    }
+}
+
+class Child extends Parent {
+    int overrideMethod(int a) {
+        return a * 2;
+    }
+}

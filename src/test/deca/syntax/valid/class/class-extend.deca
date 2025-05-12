@@ -1,0 +1,4 @@
+class X {
+}
+class Y extends X {
+}

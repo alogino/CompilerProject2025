@@ -1,0 +1,49 @@
+`> [9, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [9, 0] Main
+      +> ListDeclVar [List with 2 elements]
+      |  []> [10, 8] DeclVar
+      |  ||  +> [10, 4] Identifier (int)
+      |  ||  |  definition: type (builtin), type=int
+      |  ||  +> [10, 8] Identifier (x)
+      |  ||  |  definition: variable defined at [10, 8], type=int
+      |  ||  `> [10, 12] Initialization
+      |  ||     `> [10, 12] Int (5)
+      |  ||        type: int
+      |  []> [11, 8] DeclVar
+      |      +> [11, 4] Identifier (int)
+      |      |  definition: type (builtin), type=int
+      |      +> [11, 8] Identifier (y)
+      |      |  definition: variable defined at [11, 8], type=int
+      |      `> [11, 12] Initialization
+      |         `> [11, 12] Int (0)
+      |            type: int
+      `> ListInst [List with 1 elements]
+         []> [12, 4] While
+             +> [12, 11] Greater
+             |  type: boolean
+             |  +> [12, 11] Identifier (x)
+             |  |  definition: variable defined at [10, 8], type=int
+             |  `> [12, 15] Int (0)
+             |     type: int
+             `> ListInst [List with 2 elements]
+                []> [13, 17] Assign
+                ||  type: int
+                ||  +> [13, 8] Identifier (y)
+                ||  |  definition: variable defined at [11, 8], type=int
+                ||  `> [13, 12] Plus
+                ||     type: int
+                ||     +> [13, 12] Identifier (y)
+                ||     |  definition: variable defined at [11, 8], type=int
+                ||     `> [13, 16] Identifier (x)
+                ||        definition: variable defined at [10, 8], type=int
+                []> [14, 17] Assign
+                    type: int
+                    +> [14, 8] Identifier (x)
+                    |  definition: variable defined at [10, 8], type=int
+                    `> [14, 12] Minus
+                       type: int
+                       +> [14, 12] Identifier (x)
+                       |  definition: variable defined at [10, 8], type=int
+                       `> [14, 16] Int (1)
+                          type: int

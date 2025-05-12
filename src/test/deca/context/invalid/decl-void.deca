@@ -1,0 +1,10 @@
+// Description :
+//    Declaration d'une variable de type void
+// Résultats :
+//    Erreur de contexte : "Variable de type void"
+//
+// Historique :
+//    créé le 11/01/2025
+{
+    void y;
+}

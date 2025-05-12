@@ -1,0 +1,13 @@
+// Description :
+//    Ce test vérifie une affectation où un entier est assigné à un flottant,
+//    ce qui devrait lever une erreur de contexte.
+//
+// Résultats :
+//    Erreur de contexte : "Incompatible type assignment"
+//
+// Historique :
+//    créé le 11/01/2025
+{
+    int x;
+    x = 23.45;
+}

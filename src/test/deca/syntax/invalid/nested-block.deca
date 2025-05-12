@@ -1,0 +1,18 @@
+// Description:
+//    Programme avec des blocs imbriqués utilisant println.
+//
+// Résultats:
+//    start
+//    Medium
+//    final
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    println("start");
+    {
+        println("Medium");
+    }
+    println("final");
+}

@@ -1,0 +1,12 @@
+// Description:
+//    Test : Déclaration multiple d'une même variable sur la même ligne.
+//
+// Résultats:
+//    Doit échouer avec un message d'erreur indiquant une double déclaration de la variable `x`.
+//
+// Historique:
+//    créé le 11/01/2025.
+
+{
+    int x, x;
+}

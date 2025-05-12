@@ -1,0 +1,12 @@
+// Description :
+//    Assignation en chaîne avec incrémentation
+// Résultats :
+//    10
+// Historique :
+//    créé le 16/01/2025
+{
+    int x, y, z;
+    x = (y = (z = 5) + 2) + 3;
+
+    println(x);
+}

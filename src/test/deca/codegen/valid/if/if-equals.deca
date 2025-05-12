@@ -1,0 +1,16 @@
+// Description:
+//    Test de plusieurs blocs conditionnels
+//
+// Résultats:
+//    Affiche la valeur de y déterminée par les conditions
+{
+    int a = 2;
+    int b = 3;
+
+    if (a == b) {
+        println(a);
+    }
+    else {
+        println(b);
+    }
+}

@@ -1,0 +1,14 @@
+// Description:
+//    Test : Condition incorrecte dans une structure `if`.
+//
+// Résultats:
+//    Doit échouer avec un message d'erreur indiquant que l'expression utilisée comme condition n'est pas valide.
+//
+// Historique:
+//    créé le 11/01/2025.
+
+{
+    if (3 + 5;) {
+        println("invalid");
+    }
+}

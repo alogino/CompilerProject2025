@@ -1,0 +1,15 @@
+// Description:
+//    Test : Addition de deux entiers positifs.
+//
+// Résultats:
+//    Le programme doit afficher la somme correcte.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int x = 5;
+    int y = 10;
+    int z = x + y;
+    println(z);
+}

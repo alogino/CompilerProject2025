@@ -1,0 +1,12 @@
+// Description:
+//    Programme avec une variable non définie.
+//
+// Résultats:
+//    Ligne 6 : Erreur : variable non déclarée.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    println(x);
+}

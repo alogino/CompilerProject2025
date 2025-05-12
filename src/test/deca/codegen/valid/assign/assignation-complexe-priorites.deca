@@ -1,0 +1,14 @@
+// Description :
+//    Assignation complexe avec plusieurs niveaux de priorités
+// Résultats :
+//    9
+// Historique :
+//    créé le 16/01/2025
+{
+    int a, b, c;
+    a = 2;
+    b = 3;
+    c = (a * b) + b;
+
+    println(c);
+}

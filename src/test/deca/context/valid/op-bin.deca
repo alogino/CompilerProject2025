@@ -1,0 +1,15 @@
+// Description :
+//    Comparaison binaire valide entre deux entiers
+// Résultats :
+//    
+//
+// Historique :
+//    créé le 12/01/2025
+{
+    int x;
+    int y;
+    boolean egal;
+    x = 8;
+    y = 8;
+    egal = x == y; 
+}

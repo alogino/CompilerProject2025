@@ -1,0 +1,58 @@
+// Description:
+//    appels consécutifs de plusieurs méthodes
+//
+// Résultats:
+//    5
+//    10
+
+class A {
+    int i = 0;
+
+    void method1() {
+        i = i + 1;
+        method2();
+    }
+    void method2() {
+        i = i + 1;
+        //println(i);
+        method3();
+    }
+    void method3() {
+        i = i + 1;
+        method4();
+    }
+    void method4() {
+        i = i + 1;
+        method5();
+    }
+    void method5() {
+        i = i + 1;
+        println(i);
+        method6();
+    }
+    void method6() {
+        i = i + 1;
+        method7();
+    }
+    void method7() {
+        i = i + 1;
+        method8();
+    }
+    void method8() {
+        i = i + 1;
+        method9();
+    }
+    void method9() {
+        i = i + 1;
+        method10();
+    }
+    void method10() {
+        i = i + 1;
+        println(i);
+    }
+}
+{
+    A inst = new A();
+    inst.method1();
+
+}

@@ -1,0 +1,12 @@
+// Description :
+//    Assignations combinées avec des boucles
+// Résultats :
+//    1
+// Historique :
+//    créé le 16/01/2025
+{
+    int x = 1, y = 2, z = 3;
+
+    x = (y = (z = x));
+    println(x);
+}

@@ -1,0 +1,11 @@
+// Description:
+//    Impression d'une expression de type booléen
+// Résultats :
+//    Erreur de type : "Impossible d'imprimer un booléen"
+//
+// Historique :
+//    créé le 11/01/2025
+{
+    boolean isTrue = true;
+    print(isTrue);  
+}

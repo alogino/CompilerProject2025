@@ -1,0 +1,3 @@
+{
+    float x = 0x1.8p; // Exponent manquant
+}

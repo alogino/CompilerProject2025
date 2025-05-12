@@ -1,0 +1,15 @@
+// Description :
+//    Opération binaire avec des types incompatibles (int et boolean)
+// Résultats :
+//    Erreur de contexte : "Types incompatibles dans l'opération binaire"
+//
+// Historique :
+//    créé le 12/01/2025
+{
+    int x;
+    boolean y;
+    int z;
+    x = 4;
+    y = true;
+    z = x + y; 
+}

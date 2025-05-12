@@ -1,0 +1,11 @@
+// Description:
+//    Programme qui lit un entier depuis l'entrée standard et le stocke dans une variable `input`.
+//
+// Resultats:
+//    Pas de sortie attendue (lecture seulement).
+//
+// Historique:
+//    cree le 01/01/2025
+{
+    int input = readInt();
+}

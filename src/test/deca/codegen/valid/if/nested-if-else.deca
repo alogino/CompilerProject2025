@@ -1,0 +1,19 @@
+// Description :
+//  If imbriqué avec else
+// Résultats :
+//    Résultat : Positif et Pair
+// Historique :
+//    créé le 17/01/2025
+{
+    int x;
+    x = 4;
+    if (x > 0) {
+        if (x % 2 == 0) {
+            println("Résultat : Positif et Pair");
+        } else {
+            println("Résultat : Positif et Impair");
+        }
+    } else {
+        println("Résultat : Négatif");
+    }
+}

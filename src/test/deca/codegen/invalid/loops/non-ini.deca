@@ -1,0 +1,13 @@
+// Description:
+//    Utilisation d'une variable non initialisée dans une boucle
+//
+// Résultats:
+//    Erreur d'exécution: variable non initialisée
+
+{
+   int a;
+   while (a > 0) { 
+      println(a);
+      a = a - 1;
+   }
+}

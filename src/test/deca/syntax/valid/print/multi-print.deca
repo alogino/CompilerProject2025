@@ -1,0 +1,4 @@
+{
+        println("Hello ", "this ", "is ", "multiple ", "strings ", "in ", "one ",
+                "print ", "statement ", "and ", "on ", "different ", "lines.");
+}

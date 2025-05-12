@@ -1,0 +1,16 @@
+// Description:
+//    Programme qui effectue une addition, une soustraction, une multiplication et une division sur deux variables flottantes.
+//
+// Resultats:
+//    Pas de sortie attendue.
+//
+// Historique:
+//    cree le 01/01/2025
+{
+    float a = 5.0;
+    float b = 2.0;
+    float sum = a + b;
+    float diff = a - b;
+    float prod = a * b;
+    float quot = a / b;
+}

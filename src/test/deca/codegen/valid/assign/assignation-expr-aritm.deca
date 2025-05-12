@@ -1,0 +1,15 @@
+// Description :
+//    Assignation avec expressions arithmétiques
+// Résultats :
+//    5
+//    15
+// Historique :
+//    créé le 16/01/2025
+{
+    int a, b, c;
+    a = 5;
+    b = (c = a + 10);
+
+    println(a);
+    println(b);
+}

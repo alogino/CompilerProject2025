@@ -1,0 +1,15 @@
+// Description:
+//    Test : Combinaison d'opérations arithmétiques sur des variables flottantes.
+//
+// Résultats:
+//    Le programme doit afficher un résultat en précision simple IEEE-754.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    float x = 1.5;
+    float y = 2.0;
+    float z = x * y + 3.5;
+    println(z);
+}

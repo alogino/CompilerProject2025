@@ -1,0 +1,14 @@
+// Description :
+//  Expression logique avec OR
+// Résultats :
+//    Résultat : vrai
+// Historique :
+//    créé le 17/01/2025
+{
+    boolean a, b;
+    a = false;
+    b = true;
+    if (a || b) {
+        println("Résultat : vrai");
+    }
+}

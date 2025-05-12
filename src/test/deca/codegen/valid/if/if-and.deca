@@ -1,0 +1,16 @@
+// Description :
+//  Expression logique avec AND
+// Résultats :
+//    Résultat : faux
+// Historique :
+//    créé le 17/01/2025
+{
+    boolean a, b;
+    a = true;
+    b = false;
+    if (a && b) {
+        println("Résultat : vrai");
+    } else {
+        println("Résultat : faux");
+    }
+}

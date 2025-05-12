@@ -1,0 +1,7 @@
+class TestIfElse {
+    void test() {
+        if (true) {
+            println(1);
+        }
+    }
+}

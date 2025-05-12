@@ -1,0 +1,13 @@
+// Description:
+//    Test : Vérification de l'affichage d'un flottant en notation hexadécimale.
+//
+// Résultats:
+//    Doit afficher deux fois la même valeur, sous différents formats.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    float hexFloat = 0x1.9p4;
+    println(hexFloat);
+}

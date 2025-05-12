@@ -1,0 +1,15 @@
+// Description:
+//    Test : Division entière avec un quotient exact.
+//
+// Résultats:
+//    Le programme doit afficher le quotient entier.
+//
+// Historique:
+//    créé le 01/01/2025
+
+{
+    int x = 20;
+    int y = 4;
+    int z = x / y;
+    println(z);
+}

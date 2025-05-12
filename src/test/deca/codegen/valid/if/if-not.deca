@@ -1,0 +1,13 @@
+// Description :
+//  Condition négative dans if
+// Résultats :
+//  Condition fausse
+// Historique :
+//    créé le 16/01/2025
+{
+    boolean condition;
+    condition = false;
+    if (!condition) {
+        println("Condition fausse");
+    }
+}

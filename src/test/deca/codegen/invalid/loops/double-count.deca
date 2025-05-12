@@ -1,0 +1,11 @@
+// Description:
+//    Double déclaration du compteur dans une boucle for
+//
+// Résultats:
+//    Erreur de compilation: compteur déjà déclaré
+
+{
+   for (int i = 0; int i = 10; i = i + 1) { 
+      println(i);
+   }
+}

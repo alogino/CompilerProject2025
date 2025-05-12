@@ -1,0 +1,16 @@
+// Description:
+//    Comparaison entre un boolean et un entier dans une boucle
+//
+// Résultats:
+//    Erreur de compilation: types incompatibles
+
+{
+   boolean tab;
+   int i;
+   tab = true;
+   i = 0;
+   while (tab == i) { 
+      println(i);
+      i = i + 1;
+   }
+}

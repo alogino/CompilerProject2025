@@ -1,0 +1,14 @@
+// Description:
+//    Évaluation des combinaisons logiques avec "&&"
+//
+// Résultats:
+//    Les valeurs de chaque combinaison logique
+{
+    boolean result1 = false && false;
+    boolean result2 = false && true;
+    boolean result3 = true && false;
+    boolean result4 = true && true;
+    if (result1 == false && result3 == false && result2 == false && result4 == true) {
+        printlnx(2.3);
+    }
+}
